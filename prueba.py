@@ -2,7 +2,7 @@ import json
 
 file = 'all_response.json'
 
-dir_resp = 'respuestas\\'
+dir_resp = 'respuestas_json\\'
 
 
 with open(dir_resp + file, encoding='utf-8') as f:
