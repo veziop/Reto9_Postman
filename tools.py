@@ -38,6 +38,6 @@ class ProcesarEjercicio:
         data = json.dumps(data, indent=4)
 
         with open(self.nombre_archivo, 'w') as f:
-            f.write(f'Ejercio "{self.titulo}"\n\n')
+            f.write(f'Ejercicio "{self.titulo}"\n\n')
             f.write(f'Endpoint: {self.endpoint}\nURL completo: {self.complete_URL}\n\n')
             f.write(f'Respuesta en JSON:\n{data}')
