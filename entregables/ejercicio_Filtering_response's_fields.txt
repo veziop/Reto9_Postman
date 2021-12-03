@@ -1,0 +1,37 @@
+Ejercicio "Filtering response's fields"
+
+Endpoint: /callingcode/65?fields=languages,flag
+URL completo: https://restcountries.com/v2/callingcode/65?fields=languages,flag
+
+Respuesta en JSON:
+[
+    {
+        "languages": [
+            {
+                "iso639_1": "en",
+                "iso639_2": "eng",
+                "name": "English",
+                "nativeName": "English"
+            },
+            {
+                "iso639_1": "ms",
+                "iso639_2": "msa",
+                "name": "Malay",
+                "nativeName": "bahasa Melayu"
+            },
+            {
+                "iso639_1": "ta",
+                "iso639_2": "tam",
+                "name": "Tamil",
+                "nativeName": "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd"
+            },
+            {
+                "iso639_1": "zh",
+                "iso639_2": "zho",
+                "name": "Chinese",
+                "nativeName": "\u4e2d\u6587 (Zh\u014dngw\u00e9n)"
+            }
+        ],
+        "flag": "https://flagcdn.com/sg.svg"
+    }
+]

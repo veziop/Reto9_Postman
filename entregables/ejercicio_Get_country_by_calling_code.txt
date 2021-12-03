@@ -1,0 +1,89 @@
+Ejercicio "Get country by calling code"
+
+Endpoint: /callingcode/39
+URL completo: https://restcountries.com/v2/callingcode/39
+
+Respuesta en JSON:
+[
+    {
+        "name": "Italy",
+        "topLevelDomain": [
+            ".it"
+        ],
+        "alpha2Code": "IT",
+        "alpha3Code": "ITA",
+        "callingCodes": [
+            "39"
+        ],
+        "capital": "Rome",
+        "altSpellings": [
+            "IT",
+            "Italian Republic",
+            "Repubblica italiana"
+        ],
+        "subregion": "Southern Europe",
+        "region": "Europe",
+        "population": 59554023,
+        "latlng": [
+            42.83333333,
+            12.83333333
+        ],
+        "demonym": "Italian",
+        "area": 301336.0,
+        "gini": 35.9,
+        "timezones": [
+            "UTC+01:00"
+        ],
+        "borders": [
+            "AUT",
+            "FRA",
+            "SMR",
+            "SVN",
+            "CHE",
+            "VAT"
+        ],
+        "nativeName": "Italia",
+        "numericCode": "380",
+        "flags": {
+            "svg": "https://flagcdn.com/it.svg",
+            "png": "https://flagcdn.com/w320/it.png"
+        },
+        "currencies": [
+            {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "\u20ac"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "it",
+                "iso639_2": "ita",
+                "name": "Italian",
+                "nativeName": "Italiano"
+            }
+        ],
+        "translations": {
+            "br": "It\u00e1lia",
+            "pt": "It\u00e1lia",
+            "nl": "Itali\u00eb",
+            "hr": "Italija",
+            "fa": "\u0627\u06cc\u062a\u0627\u0644\u06cc\u0627",
+            "de": "Italien",
+            "es": "Italia",
+            "fr": "Italie",
+            "ja": "\u30a4\u30bf\u30ea\u30a2",
+            "it": "Italia",
+            "hu": "Olaszorsz\u00e1g"
+        },
+        "flag": "https://flagcdn.com/it.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "EU",
+                "name": "European Union"
+            }
+        ],
+        "cioc": "ITA",
+        "independent": true
+    }
+]

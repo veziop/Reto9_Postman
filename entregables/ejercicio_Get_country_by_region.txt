@@ -1,0 +1,5206 @@
+Ejercicio "Get country by region"
+
+Endpoint: /region/oceania
+URL completo: https://restcountries.com/v3.1/region/oceania
+
+Respuesta en JSON:
+[
+    {
+        "name": {
+            "common": "Northern Mariana Islands",
+            "official": "Commonwealth of the Northern Mariana Islands",
+            "nativeName": {
+                "cal": {
+                    "official": "Commonwealth of the Northern Mariana Islands",
+                    "common": "Northern Mariana Islands"
+                },
+                "cha": {
+                    "official": "Sankattan Siha Na Islas Mari\u00e5nas",
+                    "common": "Na Islas Mari\u00e5nas"
+                },
+                "eng": {
+                    "official": "Commonwealth of the Northern Mariana Islands",
+                    "common": "Northern Mariana Islands"
+                }
+            }
+        },
+        "tld": [
+            ".mp"
+        ],
+        "cca2": "MP",
+        "ccn3": "580",
+        "cca3": "MNP",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "USD": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "670"
+            ]
+        },
+        "capital": [
+            "Saipan"
+        ],
+        "altSpellings": [
+            "MP",
+            "Commonwealth of the Northern Mariana Islands",
+            "Sankattan Siha Na Islas Mari\u00e5nas"
+        ],
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "languages": {
+            "cal": "Carolinian",
+            "cha": "Chamorro",
+            "eng": "English"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u0643\u0648\u0645\u0648\u0646\u0648\u0644\u062b \u062c\u0632\u0631 \u0645\u0627\u0631\u064a\u0627\u0646\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064a\u0629",
+                "common": "\u062c\u0632\u0631 \u0645\u0627\u0631\u064a\u0627\u0646\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064a\u0629"
+            },
+            "ces": {
+                "official": "Spole\u010denstv\u00ed Severn\u00edch Marian",
+                "common": "Severn\u00ed Mariany"
+            },
+            "cym": {
+                "official": "Commonwealth of the Northern Mariana Islands",
+                "common": "Northern Mariana Islands"
+            },
+            "deu": {
+                "official": "Commonwealth der N\u00f6rdlichen Marianen",
+                "common": "N\u00f6rdliche Marianen"
+            },
+            "est": {
+                "official": "P\u00f5hja-Mariaani \u00dchendus",
+                "common": "P\u00f5hja-Mariaanid"
+            },
+            "fin": {
+                "official": "Pohjois-Mariaanit",
+                "common": "Pohjois-Mariaanit"
+            },
+            "fra": {
+                "official": "Commonwealth des \u00eeles Mariannes du Nord",
+                "common": "\u00celes Mariannes du Nord"
+            },
+            "hrv": {
+                "official": "Zajednica je Sjeverni Marijanski otoci",
+                "common": "Sjevernomarijanski otoci"
+            },
+            "hun": {
+                "official": "\u00c9szaki-Mariana-szigetek",
+                "common": "\u00c9szaki-Mariana-szigetek"
+            },
+            "ita": {
+                "official": "Commonwealth delle Isole Marianne Settentrionali",
+                "common": "Isole Marianne Settentrionali"
+            },
+            "jpn": {
+                "official": "\u5317\u30de\u30ea\u30a2\u30ca\u8af8\u5cf6",
+                "common": "\u5317\u30de\u30ea\u30a2\u30ca\u8af8\u5cf6"
+            },
+            "kor": {
+                "official": "\ubd81\ub9c8\ub9ac\uc544\ub098 \uc81c\ub3c4",
+                "common": "\ubd81\ub9c8\ub9ac\uc544\ub098 \uc81c\ub3c4"
+            },
+            "nld": {
+                "official": "Commonwealth van de Noordelijke Marianen",
+                "common": "Noordelijke Marianeneilanden"
+            },
+            "per": {
+                "official": "\u062c\u0632\u0627\u06cc\u0631 \u0645\u0627\u0631\u06cc\u0627\u0646\u0627\u06cc \u0634\u0645\u0627\u0644\u06cc",
+                "common": "\u062c\u0632\u0627\u06cc\u0631 \u0645\u0627\u0631\u06cc\u0627\u0646\u0627\u06cc \u0634\u0645\u0627\u0644\u06cc"
+            },
+            "pol": {
+                "official": "Wsp\u00f3lnota Marian\u00f3w P\u00f3\u0142nocnych",
+                "common": "Mariany P\u00f3\u0142nocne"
+            },
+            "por": {
+                "official": "Comunidade das Ilhas Marianas do Norte",
+                "common": "Marianas Setentrionais"
+            },
+            "rus": {
+                "official": "\u0421\u043e\u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043e \u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0445 \u041c\u0430\u0440\u0438\u0430\u043d\u0441\u043a\u0438\u0445 \u043e\u0441\u0442\u0440\u043e\u0432\u043e\u0432",
+                "common": "\u0421\u0435\u0432\u0435\u0440\u043d\u044b\u0435 \u041c\u0430\u0440\u0438\u0430\u043d\u0441\u043a\u0438\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+            },
+            "slk": {
+                "official": "Spolo\u010denstvo ostrovov Severn\u00e9 Mari\u00e1ny",
+                "common": "Severn\u00e9 Mari\u00e1ny"
+            },
+            "spa": {
+                "official": "Mancomunidad de las Islas Marianas del Norte",
+                "common": "Islas Marianas del Norte"
+            },
+            "swe": {
+                "official": "Nordmarianerna",
+                "common": "Nordmarianerna"
+            },
+            "urd": {
+                "official": "\u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u062c\u0632\u0627\u0626\u0631 \u0634\u0645\u0627\u0644\u06cc \u0645\u0627\u0631\u06cc\u0627\u0646\u0627",
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u0634\u0645\u0627\u0644\u06cc \u0645\u0627\u0631\u06cc\u0627\u0646\u0627"
+            },
+            "zho": {
+                "official": "\u5317\u9a6c\u91cc\u4e9a\u7eb3\u7fa4\u5c9b",
+                "common": "\u5317\u9a6c\u91cc\u4e9a\u7eb3\u7fa4\u5c9b"
+            }
+        },
+        "latlng": [
+            15.2,
+            145.75
+        ],
+        "landlocked": false,
+        "area": 464.0,
+        "demonyms": {
+            "eng": {
+                "f": "American",
+                "m": "American"
+            },
+            "fra": {
+                "f": "Am\u00e9ricaine",
+                "m": "Am\u00e9rican"
+            }
+        },
+        "flag": "\ud83c\uddf2\ud83c\uddf5",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/cpZ67knoRAcfu1417",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/306004"
+        },
+        "population": 57557,
+        "car": {
+            "signs": [
+                "USA"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+10:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/mp.png",
+            "svg": "https://flagcdn.com/mp.svg"
+        },
+        "coatOfArms": {},
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                15.2,
+                145.75
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Tonga",
+            "official": "Kingdom of Tonga",
+            "nativeName": {
+                "eng": {
+                    "official": "Kingdom of Tonga",
+                    "common": "Tonga"
+                },
+                "ton": {
+                    "official": "Kingdom of Tonga",
+                    "common": "Tonga"
+                }
+            }
+        },
+        "tld": [
+            ".to"
+        ],
+        "cca2": "TO",
+        "ccn3": "776",
+        "cca3": "TON",
+        "cioc": "TGA",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "TOP": {
+                "name": "Tongan pa\u02bbanga",
+                "symbol": "T$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "76"
+            ]
+        },
+        "capital": [
+            "Nuku'alofa"
+        ],
+        "altSpellings": [
+            "TO"
+        ],
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": {
+            "eng": "English",
+            "ton": "Tongan"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u0645\u0645\u0644\u0643\u0629 \u062a\u0648\u0646\u063a\u0627",
+                "common": "\u062a\u0648\u0646\u063a\u0627"
+            },
+            "ces": {
+                "official": "Kr\u00e1lovstv\u00ed Tonga",
+                "common": "Tonga"
+            },
+            "cym": {
+                "official": "Kingdom of Tonga",
+                "common": "Tonga"
+            },
+            "deu": {
+                "official": "K\u00f6nigreich Tonga",
+                "common": "Tonga"
+            },
+            "est": {
+                "official": "Tonga Kuningriik",
+                "common": "Tonga"
+            },
+            "fin": {
+                "official": "Tongan kuningaskunta",
+                "common": "Tonga"
+            },
+            "fra": {
+                "official": "Royaume des Tonga",
+                "common": "Tonga"
+            },
+            "hrv": {
+                "official": "Kraljevina Tonga",
+                "common": "Tonga"
+            },
+            "hun": {
+                "official": "Tongai Kir\u00e1lys\u00e1g",
+                "common": "Tonga"
+            },
+            "ita": {
+                "official": "Regno di Tonga",
+                "common": "Tonga"
+            },
+            "jpn": {
+                "official": "\u30c8\u30f3\u30ac\u738b\u56fd",
+                "common": "\u30c8\u30f3\u30ac"
+            },
+            "kor": {
+                "official": "\ud1b5\uac00 \uc655\uad6d",
+                "common": "\ud1b5\uac00"
+            },
+            "nld": {
+                "official": "Koninkrijk Tonga",
+                "common": "Tonga"
+            },
+            "per": {
+                "official": "\u067e\u0627\u062f\u0634\u0627\u0647\u06cc \u062a\u0648\u0646\u06af\u0627",
+                "common": "\u062a\u0648\u0646\u06af\u0627"
+            },
+            "pol": {
+                "official": "Kr\u00f3lestwo Tonga",
+                "common": "Tonga"
+            },
+            "por": {
+                "official": "Reino de Tonga",
+                "common": "Tonga"
+            },
+            "rus": {
+                "official": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u0422\u043e\u043d\u0433\u0430",
+                "common": "\u0422\u043e\u043d\u0433\u0430"
+            },
+            "slk": {
+                "official": "Tongsk\u00e9 kr\u00e1\u013eovstvo",
+                "common": "Tonga"
+            },
+            "spa": {
+                "official": "Reino de Tonga",
+                "common": "Tonga"
+            },
+            "swe": {
+                "official": "Konungariket Tonga",
+                "common": "Tonga"
+            },
+            "urd": {
+                "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u0679\u0648\u0646\u06af\u0627",
+                "common": "\u0679\u0648\u0646\u06af\u0627"
+            },
+            "zho": {
+                "official": "\u6c64\u52a0\u738b\u56fd",
+                "common": "\u6c64\u52a0"
+            }
+        },
+        "latlng": [
+            -20.0,
+            -175.0
+        ],
+        "landlocked": false,
+        "area": 747.0,
+        "demonyms": {
+            "eng": {
+                "f": "Tongan",
+                "m": "Tongan"
+            },
+            "fra": {
+                "f": "Tonguienne",
+                "m": "Tonguien"
+            }
+        },
+        "flag": "\ud83c\uddf9\ud83c\uddf4",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/p5YALBY2QdEzswRo7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/2186665"
+        },
+        "population": 105697,
+        "gini": {
+            "2015": 37.6
+        },
+        "fifa": "TGA",
+        "car": {
+            "signs": [
+                "TO"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+13:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/to.png",
+            "svg": "https://flagcdn.com/to.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/to.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/to.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -21.13,
+                -175.2
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Marshall Islands",
+            "official": "Republic of the Marshall Islands",
+            "nativeName": {
+                "eng": {
+                    "official": "Republic of the Marshall Islands",
+                    "common": "Marshall Islands"
+                },
+                "mah": {
+                    "official": "Republic of the Marshall Islands",
+                    "common": "M\u0327aje\u013c"
+                }
+            }
+        },
+        "tld": [
+            ".mh"
+        ],
+        "cca2": "MH",
+        "ccn3": "584",
+        "cca3": "MHL",
+        "cioc": "MHL",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "USD": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "92"
+            ]
+        },
+        "capital": [
+            "Majuro"
+        ],
+        "altSpellings": [
+            "MH",
+            "Republic of the Marshall Islands",
+            "Aolep\u0101n Aor\u014dkin M\u0327aje\u013c"
+        ],
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "languages": {
+            "eng": "English",
+            "mah": "Marshallese"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u062c\u0632\u0631 \u0645\u0627\u0631\u0634\u0627\u0644",
+                "common": "\u062c\u0632\u0631 \u0645\u0627\u0631\u0634\u0627\u0644"
+            },
+            "ces": {
+                "official": "Republika Marshallovy ostrovy",
+                "common": "Marshallovy ostrovy"
+            },
+            "cym": {
+                "official": "Republic of the Marshall Islands",
+                "common": "Marshall Islands"
+            },
+            "deu": {
+                "official": "Republik Marshallinseln",
+                "common": "Marshallinseln"
+            },
+            "est": {
+                "official": "Marshalli Saarte Vabariik",
+                "common": "Marshalli Saared"
+            },
+            "fin": {
+                "official": "Marshallinsaarten tasavalta",
+                "common": "Marshallinsaaret"
+            },
+            "fra": {
+                "official": "R\u00e9publique des \u00celes Marshall",
+                "common": "\u00celes Marshall"
+            },
+            "hrv": {
+                "official": "Republika Mar\u0161alovi Otoci",
+                "common": "Mar\u0161alovi Otoci"
+            },
+            "hun": {
+                "official": "Marshall-szigetek",
+                "common": "Marshall-szigetek"
+            },
+            "ita": {
+                "official": "Repubblica delle Isole Marshall",
+                "common": "Isole Marshall"
+            },
+            "jpn": {
+                "official": "\u30de\u30fc\u30b7\u30e3\u30eb\u8af8\u5cf6\u5171\u548c\u56fd",
+                "common": "\u30de\u30fc\u30b7\u30e3\u30eb\u8af8\u5cf6"
+            },
+            "kor": {
+                "official": "\ub9c8\uc15c \uc81c\ub3c4 \uacf5\ud654\uad6d",
+                "common": "\ub9c8\uc15c \uc81c\ub3c4"
+            },
+            "nld": {
+                "official": "Republiek van de Marshall-eilanden",
+                "common": "Marshalleilanden"
+            },
+            "per": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u062c\u0632\u0627\u06cc\u0631 \u0645\u0627\u0631\u0634\u0627\u0644",
+                "common": "\u062c\u0632\u0627\u06cc\u0631 \u0645\u0627\u0631\u0634\u0627\u0644"
+            },
+            "pol": {
+                "official": "Republika Wysp Marshalla",
+                "common": "Wyspy Marshalla"
+            },
+            "por": {
+                "official": "Rep\u00fablica das Ilhas Marshall",
+                "common": "Ilhas Marshall"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041c\u0430\u0440\u0448\u0430\u043b\u043b\u043e\u0432\u044b \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
+                "common": "\u041c\u0430\u0440\u0448\u0430\u043b\u043b\u043e\u0432\u044b \u041e\u0441\u0442\u0440\u043e\u0432\u0430"
+            },
+            "slk": {
+                "official": "Republika Marshallov\u00fdch ostrovov",
+                "common": "Marshallove ostrovy"
+            },
+            "spa": {
+                "official": "Rep\u00fablica de las Islas Marshall",
+                "common": "Islas Marshall"
+            },
+            "swe": {
+                "official": "Republiken Marshall\u00f6arna",
+                "common": "Marshall\u00f6arna"
+            },
+            "urd": {
+                "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u062c\u0632\u0627\u0626\u0631 \u0645\u0627\u0631\u0634\u0644",
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u0645\u0627\u0631\u0634\u0644"
+            },
+            "zho": {
+                "official": "\u9a6c\u7ecd\u5c14\u7fa4\u5c9b\u5171\u548c\u56fd",
+                "common": "\u9a6c\u7ecd\u5c14\u7fa4\u5c9b"
+            }
+        },
+        "latlng": [
+            9.0,
+            168.0
+        ],
+        "landlocked": false,
+        "area": 181.0,
+        "demonyms": {
+            "eng": {
+                "f": "Marshallese",
+                "m": "Marshallese"
+            },
+            "fra": {
+                "f": "Marshallaise",
+                "m": "Marshallais"
+            }
+        },
+        "flag": "\ud83c\uddf2\ud83c\udded",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/A4xLi1XvcX88gi3W8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/571771"
+        },
+        "population": 59194,
+        "car": {
+            "signs": [
+                "MH"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+12:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/mh.png",
+            "svg": "https://flagcdn.com/mh.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/mh.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/mh.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                7.1,
+                171.38
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "French Polynesia",
+            "official": "French Polynesia",
+            "nativeName": {
+                "fra": {
+                    "official": "Polyn\u00e9sie fran\u00e7aise",
+                    "common": "Polyn\u00e9sie fran\u00e7aise"
+                }
+            }
+        },
+        "tld": [
+            ".pf"
+        ],
+        "cca2": "PF",
+        "ccn3": "258",
+        "cca3": "PYF",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "XPF": {
+                "name": "CFP franc",
+                "symbol": "\u20a3"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "89"
+            ]
+        },
+        "capital": [
+            "Papeet\u0113"
+        ],
+        "altSpellings": [
+            "PF",
+            "Polyn\u00e9sie fran\u00e7aise",
+            "French Polynesia",
+            "P\u014dr\u012bnetia Far\u0101ni"
+        ],
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": {
+            "fra": "French"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u0628\u0648\u0644\u064a\u0646\u0632\u064a\u0627 \u0627\u0644\u0641\u0631\u0646\u0633\u064a\u0629",
+                "common": "\u0628\u0648\u0644\u064a\u0646\u0632\u064a\u0627 \u0627\u0644\u0641\u0631\u0646\u0633\u064a\u0629"
+            },
+            "ces": {
+                "official": "Francouzsk\u00e1 Polyn\u00e9sie",
+                "common": "Francouzsk\u00e1 Polyn\u00e9sie"
+            },
+            "cym": {
+                "official": "French Polynesia",
+                "common": "French Polynesia"
+            },
+            "deu": {
+                "official": "Franz\u00f6sisch-Polynesien",
+                "common": "Franz\u00f6sisch-Polynesien"
+            },
+            "est": {
+                "official": "Prantsuse Pol\u00fcneesia",
+                "common": "Prantsuse Pol\u00fcneesia"
+            },
+            "fin": {
+                "official": "Ranskan Polynesia",
+                "common": "Ranskan Polynesia"
+            },
+            "fra": {
+                "official": "Polyn\u00e9sie fran\u00e7aise",
+                "common": "Polyn\u00e9sie fran\u00e7aise"
+            },
+            "hrv": {
+                "official": "Francuska Polinezija",
+                "common": "Francuska Polinezija"
+            },
+            "hun": {
+                "official": "Francia Polin\u00e9zia",
+                "common": "Francia Polin\u00e9zia"
+            },
+            "ita": {
+                "official": "Polinesia Francese",
+                "common": "Polinesia Francese"
+            },
+            "jpn": {
+                "official": "\u30d5\u30e9\u30f3\u30b9\u9818\u30dd\u30ea\u30cd\u30b7\u30a2",
+                "common": "\u30d5\u30e9\u30f3\u30b9\u9818\u30dd\u30ea\u30cd\u30b7\u30a2"
+            },
+            "kor": {
+                "official": "\ud504\ub791\uc2a4\ub839 \ud3f4\ub9ac\ub124\uc2dc\uc544",
+                "common": "\ud504\ub791\uc2a4\ub839 \ud3f4\ub9ac\ub124\uc2dc\uc544"
+            },
+            "nld": {
+                "official": "Frans-Polynesi\u00eb",
+                "common": "Frans-Polynesi\u00eb"
+            },
+            "per": {
+                "official": "\u067e\u064f\u0644\u06cc\u200c\u0646\u0650\u0632\u06cc \u0641\u0631\u0627\u0646\u0633\u0647",
+                "common": "\u067e\u064f\u0644\u06cc\u200c\u0646\u0650\u0632\u06cc \u0641\u0631\u0627\u0646\u0633\u0647"
+            },
+            "pol": {
+                "official": "Polinezja Francuska",
+                "common": "Polinezja Francuska"
+            },
+            "por": {
+                "official": "Polin\u00e9sia Francesa",
+                "common": "Polin\u00e9sia Francesa"
+            },
+            "rus": {
+                "official": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0430\u044f \u041f\u043e\u043b\u0438\u043d\u0435\u0437\u0438\u044f",
+                "common": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0430\u044f \u041f\u043e\u043b\u0438\u043d\u0435\u0437\u0438\u044f"
+            },
+            "slk": {
+                "official": "Franc\u00fazska Polyn\u00e9zia",
+                "common": "Franc\u00fazska Polyn\u00e9zia"
+            },
+            "spa": {
+                "official": "Polinesia franc\u00e9s",
+                "common": "Polinesia Francesa"
+            },
+            "swe": {
+                "official": "Franska Polynesien",
+                "common": "Franska Polynesien"
+            },
+            "urd": {
+                "official": "\u0641\u0631\u0627\u0646\u0633\u06cc\u0633\u06cc \u067e\u0648\u0644\u06cc\u0646\u06cc\u0634\u06cc\u0627",
+                "common": "\u0641\u0631\u0627\u0646\u0633\u06cc\u0633\u06cc \u067e\u0648\u0644\u06cc\u0646\u06cc\u0634\u06cc\u0627"
+            },
+            "zho": {
+                "official": "\u6cd5\u5c5e\u6ce2\u5229\u5c3c\u897f\u4e9a",
+                "common": "\u6cd5\u5c5e\u6ce2\u5229\u5c3c\u897f\u4e9a"
+            }
+        },
+        "latlng": [
+            -15.0,
+            -140.0
+        ],
+        "landlocked": false,
+        "area": 4167.0,
+        "demonyms": {
+            "eng": {
+                "f": "French Polynesian",
+                "m": "French Polynesian"
+            },
+            "fra": {
+                "f": "Polyn\u00e9sienne",
+                "m": "Polyn\u00e9sien"
+            }
+        },
+        "flag": "\ud83c\uddf5\ud83c\uddeb",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/xgg6BQTRyeQg4e1m6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/3412620"
+        },
+        "population": 280904,
+        "car": {
+            "signs": [
+                "F"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC-10:00",
+            "UTC-09:30",
+            "UTC-09:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/pf.png",
+            "svg": "https://flagcdn.com/pf.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/pf.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/pf.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -17.53,
+                -149.56
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^((97|98)7\\d{2})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Palau",
+            "official": "Republic of Palau",
+            "nativeName": {
+                "eng": {
+                    "official": "Republic of Palau",
+                    "common": "Palau"
+                },
+                "pau": {
+                    "official": "Beluu er a Belau",
+                    "common": "Belau"
+                }
+            }
+        },
+        "tld": [
+            ".pw"
+        ],
+        "cca2": "PW",
+        "ccn3": "585",
+        "cca3": "PLW",
+        "cioc": "PLW",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "USD": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "80"
+            ]
+        },
+        "capital": [
+            "Ngerulmud"
+        ],
+        "altSpellings": [
+            "PW",
+            "Republic of Palau",
+            "Beluu er a Belau"
+        ],
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "languages": {
+            "eng": "English",
+            "pau": "Palauan"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0628\u0627\u0644\u0627\u0648",
+                "common": "\u0628\u0627\u0644\u0627\u0648"
+            },
+            "ces": {
+                "official": "Republika Palau",
+                "common": "Palau"
+            },
+            "cym": {
+                "official": "Republic of Palau",
+                "common": "Palau"
+            },
+            "deu": {
+                "official": "Republik Palau",
+                "common": "Palau"
+            },
+            "est": {
+                "official": "Belau Vabariik",
+                "common": "Belau"
+            },
+            "fin": {
+                "official": "Palaun tasavalta",
+                "common": "Palau"
+            },
+            "fra": {
+                "official": "R\u00e9publique des Palaos (Palau)",
+                "common": "Palaos (Palau)"
+            },
+            "hrv": {
+                "official": "Republika Palau",
+                "common": "Palau"
+            },
+            "hun": {
+                "official": "Palaui K\u00f6zt\u00e1rsas\u00e1g",
+                "common": "Palau"
+            },
+            "ita": {
+                "official": "Repubblica di Palau",
+                "common": "Palau"
+            },
+            "jpn": {
+                "official": "\u30d1\u30e9\u30aa\u5171\u548c\u56fd",
+                "common": "\u30d1\u30e9\u30aa"
+            },
+            "kor": {
+                "official": "\ud314\ub77c\uc6b0 \uacf5\ud654\uad6d",
+                "common": "\ud314\ub77c\uc6b0"
+            },
+            "nld": {
+                "official": "Republiek van Palau",
+                "common": "Palau"
+            },
+            "per": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u067e\u0627\u0644\u0627\u0626\u0648",
+                "common": "\u067e\u0627\u0644\u0627\u0626\u0648"
+            },
+            "pol": {
+                "official": "Republika Palau",
+                "common": "Palau"
+            },
+            "por": {
+                "official": "Rep\u00fablica de Palau",
+                "common": "Palau"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041f\u0430\u043b\u0430\u0443",
+                "common": "\u041f\u0430\u043b\u0430\u0443"
+            },
+            "slk": {
+                "official": "Palausk\u00e1 republika",
+                "common": "Palau"
+            },
+            "spa": {
+                "official": "Rep\u00fablica de Palau",
+                "common": "Palau"
+            },
+            "swe": {
+                "official": "Republiken Palau",
+                "common": "Palau"
+            },
+            "urd": {
+                "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u067e\u0644\u0627\u0624",
+                "common": "\u067e\u0644\u0627\u0624"
+            },
+            "zho": {
+                "official": "\u5e15\u52b3\u5171\u548c\u56fd",
+                "common": "\u5e15\u52b3"
+            }
+        },
+        "latlng": [
+            7.5,
+            134.5
+        ],
+        "landlocked": false,
+        "area": 459.0,
+        "demonyms": {
+            "eng": {
+                "f": "Palauan",
+                "m": "Palauan"
+            },
+            "fra": {
+                "f": "Paluane",
+                "m": "Paluan"
+            }
+        },
+        "flag": "\ud83c\uddf5\ud83c\uddfc",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/MVasQBbUkQP7qQDR9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/571805"
+        },
+        "population": 18092,
+        "car": {
+            "signs": [
+                "PAL"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+09:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/pw.png",
+            "svg": "https://flagcdn.com/pw.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/pw.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/pw.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                7.5,
+                134.62
+            ]
+        },
+        "postalCode": {
+            "format": "96940",
+            "regex": "^(96940)$"
+        }
+    },
+    {
+        "name": {
+            "common": "Cocos (Keeling) Islands",
+            "official": "Territory of the Cocos (Keeling) Islands",
+            "nativeName": {
+                "eng": {
+                    "official": "Territory of the Cocos (Keeling) Islands",
+                    "common": "Cocos (Keeling) Islands"
+                }
+            }
+        },
+        "tld": [
+            ".cc"
+        ],
+        "cca2": "CC",
+        "ccn3": "166",
+        "cca3": "CCK",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "AUD": {
+                "name": "Australian dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "1"
+            ]
+        },
+        "capital": [
+            "West Island"
+        ],
+        "altSpellings": [
+            "CC",
+            "Keeling Islands",
+            "Cocos Islands"
+        ],
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "languages": {
+            "eng": "English"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u0625\u0642\u0644\u064a\u0645 \u062c\u0632\u0631 \u0643\u0648\u0643\u0648\u0633",
+                "common": "\u062c\u0632\u0631 \u0643\u0648\u0643\u0648\u0633"
+            },
+            "ces": {
+                "official": "Kokosov\u00e9 ostrovy",
+                "common": "Kokosov\u00e9 ostrovy"
+            },
+            "cym": {
+                "official": "Tiriogaeth yr Ynysoedd Cocos (Keeling)",
+                "common": "Ynysoedd Cocos"
+            },
+            "deu": {
+                "official": "Gebiet der Kokos- (Keeling-) Inseln",
+                "common": "Kokosinseln"
+            },
+            "est": {
+                "official": "Kookossaarte ala",
+                "common": "Kookossaared"
+            },
+            "fin": {
+                "official": "Kookossaaret",
+                "common": "Kookossaaret"
+            },
+            "fra": {
+                "official": "Territoire des \u00eeles Cocos (Keeling)",
+                "common": "\u00celes Cocos"
+            },
+            "hrv": {
+                "official": "Teritoriju Kokosovi (Keeling) Islands",
+                "common": "Kokosovi Otoci"
+            },
+            "hun": {
+                "official": "K\u00f3kusz-szigetek",
+                "common": "K\u00f3kusz-szigetek"
+            },
+            "ita": {
+                "official": "Territorio della (Keeling) Isole Cocos",
+                "common": "Isole Cocos e Keeling"
+            },
+            "jpn": {
+                "official": "\u30b3\u30b3\u30b9\u8af8\u5cf6\u306e\u9818\u571f",
+                "common": "\u30b3\u30b3\u30b9\uff08\u30ad\u30fc\u30ea\u30f3\u30b0\uff09\u8af8\u5cf6"
+            },
+            "kor": {
+                "official": "\ucf54\ucf54\uc2a4 \uc81c\ub3c4",
+                "common": "\ucf54\ucf54\uc2a4 \uc81c\ub3c4"
+            },
+            "nld": {
+                "official": "Grondgebied van de Eilanden Cocos (Keeling )",
+                "common": "Cocoseilanden"
+            },
+            "per": {
+                "official": "\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u06a9\u0648\u0633",
+                "common": "\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u06a9\u0648\u0633"
+            },
+            "pol": {
+                "official": "Wyspy Kokosowe",
+                "common": "Wyspy Kokosowe"
+            },
+            "por": {
+                "official": "Territ\u00f3rio dos Cocos (Keeling)",
+                "common": "Ilhas Cocos (Keeling)"
+            },
+            "rus": {
+                "official": "\u0422\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f \u041a\u043e\u043a\u043e\u0441\u043e\u0432\u044b\u0435 (\u041a\u0438\u043b\u0438\u043d\u0433) \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
+                "common": "\u041a\u043e\u043a\u043e\u0441\u043e\u0432\u044b\u0435 \u043e\u0441\u0442\u0440\u043e\u0432\u0430"
+            },
+            "slk": {
+                "official": "Kokosov\u00e9 ostrovy",
+                "common": "Kokosov\u00e9 ostrovy"
+            },
+            "spa": {
+                "official": "Territorio de los (Keeling) Islas Cocos",
+                "common": "Islas Cocos o Islas Keeling"
+            },
+            "swe": {
+                "official": "Kokos\u00f6arna",
+                "common": "Kokos\u00f6arna"
+            },
+            "urd": {
+                "official": "\u062c\u0632\u0627\u0626\u0631 (\u06a9\u06cc\u0644\u0646\u06af) \u06a9\u0648\u06a9\u0648\u0633",
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u0648\u06a9\u0648\u0633"
+            },
+            "zho": {
+                "official": "\u79d1\u79d1\u65af",
+                "common": "\u79d1\u79d1\u65af"
+            }
+        },
+        "latlng": [
+            -12.5,
+            96.83333333
+        ],
+        "landlocked": false,
+        "area": 14.0,
+        "demonyms": {
+            "eng": {
+                "f": "Cocos Islander",
+                "m": "Cocos Islander"
+            }
+        },
+        "flag": "\ud83c\udde8\ud83c\udde8",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/3eCdKVpVfMcZyKcK6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/82636"
+        },
+        "population": 544,
+        "car": {
+            "signs": [
+                "AUS"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+06:30"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/cc.png",
+            "svg": "https://flagcdn.com/cc.svg"
+        },
+        "coatOfArms": {},
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -12.17,
+                96.83
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Christmas Island",
+            "official": "Territory of Christmas Island",
+            "nativeName": {
+                "eng": {
+                    "official": "Territory of Christmas Island",
+                    "common": "Christmas Island"
+                }
+            }
+        },
+        "tld": [
+            ".cx"
+        ],
+        "cca2": "CX",
+        "ccn3": "162",
+        "cca3": "CXR",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "AUD": {
+                "name": "Australian dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "1"
+            ]
+        },
+        "capital": [
+            "Flying Fish Cove"
+        ],
+        "altSpellings": [
+            "CX",
+            "Territory of Christmas Island"
+        ],
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "languages": {
+            "eng": "English"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0632\u064a\u0631\u0629 \u0643\u0631\u064a\u0633\u0645\u0627\u0633",
+                "common": "\u062c\u0632\u064a\u0631\u0629 \u0643\u0631\u064a\u0633\u0645\u0627\u0633"
+            },
+            "ces": {
+                "official": "Teritorium V\u00e1no\u010dn\u00edho ostrova",
+                "common": "V\u00e1no\u010dn\u00ed ostrov"
+            },
+            "cym": {
+                "official": "Tiriogaeth yr Ynys y Nadolig",
+                "common": "Ynys y Nadolig"
+            },
+            "deu": {
+                "official": "Gebiet der Weihnachtsinsel",
+                "common": "Weihnachtsinsel"
+            },
+            "est": {
+                "official": "J\u00f5ulusaare ala",
+                "common": "J\u00f5ulusaar"
+            },
+            "fin": {
+                "official": "Joulusaaren alue",
+                "common": "Joulusaari"
+            },
+            "fra": {
+                "official": "Territoire de l'\u00eele Christmas",
+                "common": "\u00cele Christmas"
+            },
+            "hrv": {
+                "official": "Teritorij Bo\u017ei\u0107ni otok",
+                "common": "Bo\u017ei\u0107ni otok"
+            },
+            "hun": {
+                "official": "Kar\u00e1csony-sziget",
+                "common": "Kar\u00e1csony-sziget"
+            },
+            "ita": {
+                "official": "Territorio di Christmas Island",
+                "common": "Isola di Natale"
+            },
+            "jpn": {
+                "official": "\u30af\u30ea\u30b9\u30de\u30b9\u5cf6\u306e\u9818\u571f",
+                "common": "\u30af\u30ea\u30b9\u30de\u30b9\u5cf6"
+            },
+            "kor": {
+                "official": "\ud06c\ub9ac\uc2a4\ub9c8\uc2a4 \uc12c",
+                "common": "\ud06c\ub9ac\uc2a4\ub9c8\uc2a4 \uc12c"
+            },
+            "nld": {
+                "official": "Grondgebied van Christmas Island",
+                "common": "Christmaseiland"
+            },
+            "per": {
+                "official": "\u062c\u0632\u06cc\u0631\u0647\u0654 \u06a9\u0631\u06cc\u0633\u0645\u0633",
+                "common": "\u062c\u0632\u06cc\u0631\u0647\u0654 \u06a9\u0631\u06cc\u0633\u0645\u0633"
+            },
+            "pol": {
+                "official": "Wyspa Bo\u017cego Narodzenia",
+                "common": "Wyspa Bo\u017cego Narodzenia"
+            },
+            "por": {
+                "official": "Territ\u00f3rio da Ilha Christmas",
+                "common": "Ilha do Natal"
+            },
+            "rus": {
+                "official": "\u0422\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u0430",
+                "common": "\u041e\u0441\u0442\u0440\u043e\u0432 \u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u0430"
+            },
+            "slk": {
+                "official": "Terit\u00f3rium Viano\u010dn\u00e9ho ostrova",
+                "common": "Viano\u010dn\u00fa ostrov"
+            },
+            "spa": {
+                "official": "Territorio de la Isla de Navidad",
+                "common": "Isla de Navidad"
+            },
+            "swe": {
+                "official": "Jul\u00f6n",
+                "common": "Jul\u00f6n"
+            },
+            "urd": {
+                "official": "\u0631\u06cc\u0627\u0633\u062a\u0650 \u062c\u0632\u06cc\u0631\u06c1 \u06a9\u0631\u0633\u0645\u0633",
+                "common": "\u062c\u0632\u06cc\u0631\u06c1 \u06a9\u0631\u0633\u0645\u0633"
+            },
+            "zho": {
+                "official": "\u5723\u8bde\u5c9b",
+                "common": "\u5723\u8bde\u5c9b"
+            }
+        },
+        "latlng": [
+            -10.5,
+            105.66666666
+        ],
+        "landlocked": false,
+        "area": 135.0,
+        "demonyms": {
+            "eng": {
+                "f": "Christmas Islander",
+                "m": "Christmas Islander"
+            }
+        },
+        "flag": "\ud83c\udde8\ud83c\uddfd",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/ZC17hHsQZpShN5wk9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/6365444"
+        },
+        "population": 2072,
+        "car": {
+            "signs": [
+                "AUS"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+07:00"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/cx.png",
+            "svg": "https://flagcdn.com/cx.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/cx.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/cx.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -10.42,
+                105.68
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Nauru",
+            "official": "Republic of Nauru",
+            "nativeName": {
+                "eng": {
+                    "official": "Republic of Nauru",
+                    "common": "Nauru"
+                },
+                "nau": {
+                    "official": "Republic of Nauru",
+                    "common": "Nauru"
+                }
+            }
+        },
+        "tld": [
+            ".nr"
+        ],
+        "cca2": "NR",
+        "ccn3": "520",
+        "cca3": "NRU",
+        "cioc": "NRU",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "AUD": {
+                "name": "Australian dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "74"
+            ]
+        },
+        "capital": [
+            "Yaren"
+        ],
+        "altSpellings": [
+            "NR",
+            "Naoero",
+            "Pleasant Island",
+            "Republic of Nauru",
+            "Ripublik Naoero"
+        ],
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "languages": {
+            "eng": "English",
+            "nau": "Nauru"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0646\u0627\u0648\u0631\u0648",
+                "common": "\u0646\u0627\u0648\u0631\u0648"
+            },
+            "ces": {
+                "official": "Republika Nauru",
+                "common": "Nauru"
+            },
+            "cym": {
+                "official": "Republic of Nauru",
+                "common": "Nauru"
+            },
+            "deu": {
+                "official": "Republik Nauru",
+                "common": "Nauru"
+            },
+            "est": {
+                "official": "Nauru Vabariik",
+                "common": "Nauru"
+            },
+            "fin": {
+                "official": "Naurun tasavalta",
+                "common": "Nauru"
+            },
+            "fra": {
+                "official": "R\u00e9publique de Nauru",
+                "common": "Nauru"
+            },
+            "hrv": {
+                "official": "Republika Nauru",
+                "common": "Nauru"
+            },
+            "hun": {
+                "official": "Naurui K\u00f6zt\u00e1rsas\u00e1g",
+                "common": "Nauru"
+            },
+            "ita": {
+                "official": "Repubblica di Nauru",
+                "common": "Nauru"
+            },
+            "jpn": {
+                "official": "\u30ca\u30a6\u30eb\u5171\u548c\u56fd",
+                "common": "\u30ca\u30a6\u30eb"
+            },
+            "kor": {
+                "official": "\ub098\uc6b0\ub8e8 \uacf5\ud654\uad6d",
+                "common": "\ub098\uc6b0\ub8e8"
+            },
+            "nld": {
+                "official": "Republiek Nauru",
+                "common": "Nauru"
+            },
+            "per": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0646\u0627\u0626\u0648\u0631\u0648",
+                "common": "\u0646\u0627\u0626\u0648\u0631\u0648"
+            },
+            "pol": {
+                "official": "Republika Nauru",
+                "common": "Nauru"
+            },
+            "por": {
+                "official": "Rep\u00fablica de Nauru",
+                "common": "Nauru"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041d\u0430\u0443\u0440\u0443",
+                "common": "\u041d\u0430\u0443\u0440\u0443"
+            },
+            "slk": {
+                "official": "Naursk\u00e1 republika",
+                "common": "Nauru"
+            },
+            "spa": {
+                "official": "Rep\u00fablica de Nauru",
+                "common": "Nauru"
+            },
+            "swe": {
+                "official": "Republiken Nauru",
+                "common": "Nauru"
+            },
+            "urd": {
+                "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0646\u0627\u0648\u0631\u0648",
+                "common": "\u0646\u0627\u0648\u0631\u0648"
+            },
+            "zho": {
+                "official": "\u7459\u9c81\u5171\u548c\u56fd",
+                "common": "\u7459\u9c81"
+            }
+        },
+        "latlng": [
+            -0.53333333,
+            166.91666666
+        ],
+        "landlocked": false,
+        "area": 21.0,
+        "demonyms": {
+            "eng": {
+                "f": "Nauruan",
+                "m": "Nauruan"
+            },
+            "fra": {
+                "f": "Nauruane",
+                "m": "Nauruan"
+            }
+        },
+        "flag": "\ud83c\uddf3\ud83c\uddf7",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/kyAGw6XEJgjSMsTK7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/571804"
+        },
+        "population": 10834,
+        "gini": {
+            "2012": 34.8
+        },
+        "car": {
+            "signs": [
+                "NAU"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+12:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/nr.png",
+            "svg": "https://flagcdn.com/nr.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/nr.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/nr.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -0.55,
+                166.92
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Papua New Guinea",
+            "official": "Independent State of Papua New Guinea",
+            "nativeName": {
+                "eng": {
+                    "official": "Independent State of Papua New Guinea",
+                    "common": "Papua New Guinea"
+                },
+                "hmo": {
+                    "official": "Independen Stet bilong Papua Niugini",
+                    "common": "Papua Niu Gini"
+                },
+                "tpi": {
+                    "official": "Independen Stet bilong Papua Niugini",
+                    "common": "Papua Niugini"
+                }
+            }
+        },
+        "tld": [
+            ".pg"
+        ],
+        "cca2": "PG",
+        "ccn3": "598",
+        "cca3": "PNG",
+        "cioc": "PNG",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "PGK": {
+                "name": "Papua New Guinean kina",
+                "symbol": "K"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "75"
+            ]
+        },
+        "capital": [
+            "Port Moresby"
+        ],
+        "altSpellings": [
+            "PG",
+            "Independent State of Papua New Guinea",
+            "Independen Stet bilong Papua Niugini"
+        ],
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "languages": {
+            "eng": "English",
+            "hmo": "Hiri Motu",
+            "tpi": "Tok Pisin"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062f\u0648\u0644\u0629 \u0628\u0627\u0628\u0648\u0627 \u063a\u064a\u0646\u064a\u0627 \u0627\u0644\u062c\u062f\u064a\u062f\u0629",
+                "common": "\u0628\u0627\u0628\u0648\u0627 \u063a\u064a\u0646\u064a\u0627 \u0627\u0644\u062c\u062f\u064a\u062f\u0629"
+            },
+            "ces": {
+                "official": "Nez\u00e1visl\u00fd st\u00e1t Papua Nov\u00e1 Guinea",
+                "common": "Papua-Nov\u00e1 Guinea"
+            },
+            "cym": {
+                "official": "Independent State of Papua New Guinea",
+                "common": "Papua New Guinea"
+            },
+            "deu": {
+                "official": "Unabh\u00e4ngiger Staat Papua-Neuguinea",
+                "common": "Papua-Neuguinea"
+            },
+            "est": {
+                "official": "Paapua Uus-Guinea Iseseisvusriik",
+                "common": "Paapua Uus-Guinea"
+            },
+            "fin": {
+                "official": "Papua-Uuden-Guinean Itsen\u00e4inen valtio",
+                "common": "Papua-Uusi-Guinea"
+            },
+            "fra": {
+                "official": "\u00c9tat ind\u00e9pendant de Papouasie-Nouvelle-Guin\u00e9e",
+                "common": "Papouasie-Nouvelle-Guin\u00e9e"
+            },
+            "hrv": {
+                "official": "Nezavisna Dr\u017eava Papui Novoj Gvineji",
+                "common": "Papua Nova Gvineja"
+            },
+            "hun": {
+                "official": "P\u00e1pua \u00daj-Guinea F\u00fcggetlen \u00c1llam",
+                "common": "P\u00e1pua \u00daj-Guinea"
+            },
+            "ita": {
+                "official": "Stato indipendente di Papua Nuova Guinea",
+                "common": "Papua Nuova Guinea"
+            },
+            "jpn": {
+                "official": "\u30d1\u30d7\u30a2\u30cb\u30e5\u30fc\u30ae\u30cb\u30a2\u72ec\u7acb\u56fd",
+                "common": "\u30d1\u30d7\u30a2\u30cb\u30e5\u30fc\u30ae\u30cb\u30a2"
+            },
+            "kor": {
+                "official": "\ud30c\ud478\uc544\ub274\uae30\ub2c8 \ub3c5\ub9bd\uad6d",
+                "common": "\ud30c\ud478\uc544\ub274\uae30\ub2c8"
+            },
+            "nld": {
+                "official": "Onafhankelijke Staat Papoea -Nieuw-Guinea",
+                "common": "Papoea-Nieuw-Guinea"
+            },
+            "per": {
+                "official": "\u0645\u0645\u0644\u06a9\u062a \u0645\u0633\u062a\u0642\u0644 \u067e\u0627\u067e\u0648\u0622 \u06af\u06cc\u0646\u0647\u0654 \u0646\u0648",
+                "common": "\u067e\u0627\u067e\u0648\u0622 \u06af\u06cc\u0646\u0647 \u0646\u0648"
+            },
+            "pol": {
+                "official": "Niezale\u017cne Pa\u0144stwo Papui-Nowej Gwinei",
+                "common": "Papua-Nowa Gwinea"
+            },
+            "por": {
+                "official": "Estado Independente da Papua Nova Guin\u00e9",
+                "common": "Papua Nova Guin\u00e9"
+            },
+            "rus": {
+                "official": "\u041d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0435 \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e \u041f\u0430\u043f\u0443\u0430-\u041d\u043e\u0432\u043e\u0439 \u0413\u0432\u0438\u043d\u0435\u0438",
+                "common": "\u041f\u0430\u043f\u0443\u0430 \u2014 \u041d\u043e\u0432\u0430\u044f \u0413\u0432\u0438\u043d\u0435\u044f"
+            },
+            "slk": {
+                "official": "Nez\u00e1visl\u00fd \u0161t\u00e1t Papua-Nov\u00e1 Guinea",
+                "common": "Papua-Nov\u00e1 Guinea"
+            },
+            "spa": {
+                "official": "Estado Independiente de Pap\u00faa Nueva Guinea",
+                "common": "Pap\u00faa Nueva Guinea"
+            },
+            "swe": {
+                "official": "Den oberoende staten Papua Nya Guinea",
+                "common": "Papua Nya Guinea"
+            },
+            "urd": {
+                "official": "\u0622\u0632\u0627\u062f \u0631\u06cc\u0627\u0633\u062a\u0650 \u067e\u0627\u067e\u0648\u0627 \u0646\u06cc\u0648 \u06af\u0646\u06cc",
+                "common": "\u067e\u0627\u067e\u0648\u0627 \u0646\u06cc\u0648 \u06af\u0646\u06cc"
+            },
+            "zho": {
+                "official": "\u5df4\u5e03\u4e9a\u65b0\u51e0\u5185\u4e9a",
+                "common": "\u5df4\u5e03\u4e9a\u65b0\u51e0\u5185\u4e9a"
+            }
+        },
+        "latlng": [
+            -6.0,
+            147.0
+        ],
+        "landlocked": false,
+        "borders": [
+            "IDN"
+        ],
+        "area": 462840.0,
+        "demonyms": {
+            "eng": {
+                "f": "Papua New Guinean",
+                "m": "Papua New Guinean"
+            },
+            "fra": {
+                "f": "Papouasienne",
+                "m": "Papouasien"
+            }
+        },
+        "flag": "\ud83c\uddf5\ud83c\uddec",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/ChGmzZBjZ3vnBwR2A",
+            "openStreetMaps": "https://goo.gl/maps/ChGmzZBjZ3vnBwR2A"
+        },
+        "population": 8947027,
+        "gini": {
+            "2009": 41.9
+        },
+        "fifa": "PNG",
+        "car": {
+            "signs": [
+                "PNG"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+10:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/pg.png",
+            "svg": "https://flagcdn.com/pg.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/pg.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/pg.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -9.45,
+                147.18
+            ]
+        },
+        "postalCode": {
+            "format": "###",
+            "regex": "^(\\d{3})$"
+        }
+    },
+    {
+        "name": {
+            "common": "American Samoa",
+            "official": "American Samoa",
+            "nativeName": {
+                "eng": {
+                    "official": "American Samoa",
+                    "common": "American Samoa"
+                },
+                "smo": {
+                    "official": "S\u0101moa Amelika",
+                    "common": "S\u0101moa Amelika"
+                }
+            }
+        },
+        "tld": [
+            ".as"
+        ],
+        "cca2": "AS",
+        "ccn3": "016",
+        "cca3": "ASM",
+        "cioc": "ASA",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "USD": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "684"
+            ]
+        },
+        "capital": [
+            "Pago Pago"
+        ],
+        "altSpellings": [
+            "AS",
+            "Amerika S\u0101moa",
+            "Amelika S\u0101moa",
+            "S\u0101moa Amelika"
+        ],
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": {
+            "eng": "English",
+            "smo": "Samoan"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u0633\u0627\u0645\u0648\u0627 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629",
+                "common": "\u0633\u0627\u0645\u0648\u0627 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629"
+            },
+            "ces": {
+                "official": "Americk\u00e1 Samoa",
+                "common": "Americk\u00e1 Samoa"
+            },
+            "cym": {
+                "official": "American Samoa",
+                "common": "American Samoa"
+            },
+            "deu": {
+                "official": "Amerikanisch-Samoa",
+                "common": "Amerikanisch-Samoa"
+            },
+            "est": {
+                "official": "Ameerika Samoa",
+                "common": "Ameerika Samoa"
+            },
+            "fin": {
+                "official": "Amerikan Samoa",
+                "common": "Amerikan Samoa"
+            },
+            "fra": {
+                "official": "Samoa am\u00e9ricaines",
+                "common": "Samoa am\u00e9ricaines"
+            },
+            "hrv": {
+                "official": "ameri\u010dka Samoa",
+                "common": "Ameri\u010dka Samoa"
+            },
+            "hun": {
+                "official": "Szamoa",
+                "common": "Szamoa"
+            },
+            "ita": {
+                "official": "Samoa americane",
+                "common": "Samoa Americane"
+            },
+            "jpn": {
+                "official": "\u7c73\u30b5\u30e2\u30a2",
+                "common": "\u30a2\u30e1\u30ea\u30ab\u9818\u30b5\u30e2\u30a2"
+            },
+            "kor": {
+                "official": "\uc544\uba54\ub9ac\uce78\uc0ac\ubaa8\uc544",
+                "common": "\uc544\uba54\ub9ac\uce78\uc0ac\ubaa8\uc544"
+            },
+            "nld": {
+                "official": "Amerikaans Samoa",
+                "common": "Amerikaans Samoa"
+            },
+            "per": {
+                "official": "\u0633\u0627\u0645\u0648\u0622\u06cc \u0622\u0645\u0631\u06cc\u06a9\u0627",
+                "common": "\u0633\u0627\u0645\u0648\u0622\u06cc \u0622\u0645\u0631\u06cc\u06a9\u0627"
+            },
+            "pol": {
+                "official": "Samoa Ameryka\u0144skie",
+                "common": "Samoa Ameryka\u0144skie"
+            },
+            "por": {
+                "official": "Samoa americana",
+                "common": "Samoa Americana"
+            },
+            "rus": {
+                "official": "\u0430\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0435 \u0421\u0430\u043c\u043e\u0430",
+                "common": "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0435 \u0421\u0430\u043c\u043e\u0430"
+            },
+            "slk": {
+                "official": "Americk\u00e1 Samoa",
+                "common": "Americk\u00e1 Samoa"
+            },
+            "spa": {
+                "official": "Samoa Americana",
+                "common": "Samoa Americana"
+            },
+            "swe": {
+                "official": "Amerikanska Samoa",
+                "common": "Amerikanska Samoa"
+            },
+            "urd": {
+                "official": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u0633\u0645\u0648\u0648\u0627",
+                "common": "\u0627\u0645\u0631\u06cc\u06a9\u06cc \u0633\u0645\u0648\u0648\u0627"
+            },
+            "zho": {
+                "official": "\u7f8e\u5c5e\u8428\u6469\u4e9a",
+                "common": "\u7f8e\u5c5e\u8428\u6469\u4e9a"
+            }
+        },
+        "latlng": [
+            -14.33333333,
+            -170.0
+        ],
+        "landlocked": false,
+        "area": 199.0,
+        "demonyms": {
+            "eng": {
+                "f": "American Samoan",
+                "m": "American Samoan"
+            },
+            "fra": {
+                "f": "Samoane",
+                "m": "Samoan"
+            }
+        },
+        "flag": "\ud83c\udde6\ud83c\uddf8",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/Re9ePMjwP1sFCBFA6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/2177187"
+        },
+        "population": 55197,
+        "fifa": "ASA",
+        "car": {
+            "signs": [
+                "USA"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC-11:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/as.png",
+            "svg": "https://flagcdn.com/as.svg"
+        },
+        "coatOfArms": {},
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -14.27,
+                -170.7
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Kiribati",
+            "official": "Independent and Sovereign Republic of Kiribati",
+            "nativeName": {
+                "eng": {
+                    "official": "Independent and Sovereign Republic of Kiribati",
+                    "common": "Kiribati"
+                },
+                "gil": {
+                    "official": "Ribaberiki Kiribati",
+                    "common": "Kiribati"
+                }
+            }
+        },
+        "tld": [
+            ".ki"
+        ],
+        "cca2": "KI",
+        "ccn3": "296",
+        "cca3": "KIR",
+        "cioc": "KIR",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "AUD": {
+                "name": "Australian dollar",
+                "symbol": "$"
+            },
+            "KID": {
+                "name": "Kiribati dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "86"
+            ]
+        },
+        "capital": [
+            "South Tarawa"
+        ],
+        "altSpellings": [
+            "KI",
+            "Republic of Kiribati",
+            "Ribaberiki Kiribati"
+        ],
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "languages": {
+            "eng": "English",
+            "gil": "Gilbertese"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0643\u064a\u0631\u064a\u0628\u0627\u062a\u064a",
+                "common": "\u0643\u064a\u0631\u064a\u0628\u0627\u062a\u064a"
+            },
+            "ces": {
+                "official": "Republika Kiribati",
+                "common": "Kiribati"
+            },
+            "cym": {
+                "official": "Independent and Sovereign Republic of Kiribati",
+                "common": "Kiribati"
+            },
+            "deu": {
+                "official": "Republik Kiribati",
+                "common": "Kiribati"
+            },
+            "est": {
+                "official": "Kiribati Vabariik",
+                "common": "Kiribati"
+            },
+            "fin": {
+                "official": "Kiribatin tasavalta",
+                "common": "Kiribati"
+            },
+            "fra": {
+                "official": "R\u00e9publique de Kiribati",
+                "common": "Kiribati"
+            },
+            "hrv": {
+                "official": "Samostalne i suverene Republike Kiribati",
+                "common": "Kiribati"
+            },
+            "hun": {
+                "official": "Kiribati K\u00f6zt\u00e1rsas\u00e1g",
+                "common": "Kiribati"
+            },
+            "ita": {
+                "official": "Repubblica indipendente e sovrano di Kiribati",
+                "common": "Kiribati"
+            },
+            "jpn": {
+                "official": "\u30ad\u30ea\u30d0\u30b9\u306e\u72ec\u7acb\u3068\u4e3b\u6a29\u5171\u548c\u56fd",
+                "common": "\u30ad\u30ea\u30d0\u30b9"
+            },
+            "kor": {
+                "official": "\ud0a4\ub9ac\ubc14\uc2dc \uacf5\ud654\uad6d",
+                "common": "\ud0a4\ub9ac\ubc14\uc2dc"
+            },
+            "nld": {
+                "official": "Onafhankelijke en soevereine republiek Kiribati",
+                "common": "Kiribati"
+            },
+            "per": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u06a9\u06cc\u0631\u06cc\u0628\u0627\u062a\u06cc",
+                "common": "\u06a9\u06cc\u0631\u06cc\u0628\u0627\u062a\u06cc"
+            },
+            "pol": {
+                "official": "Republika Kiribati",
+                "common": "Kiribati"
+            },
+            "por": {
+                "official": "Independente e soberano Rep\u00fablica de Kiribati",
+                "common": "Kiribati"
+            },
+            "rus": {
+                "official": "\u041d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0439 \u0438 \u0441\u0443\u0432\u0435\u0440\u0435\u043d\u043d\u043e\u0439 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u041a\u0438\u0440\u0438\u0431\u0430\u0442\u0438",
+                "common": "\u041a\u0438\u0440\u0438\u0431\u0430\u0442\u0438"
+            },
+            "slk": {
+                "official": "Kiribatsk\u00e1 republika",
+                "common": "Kiribati"
+            },
+            "spa": {
+                "official": "Rep\u00fablica Independiente y Soberano de Kiribati",
+                "common": "Kiribati"
+            },
+            "swe": {
+                "official": "Republiken Kiribati",
+                "common": "Kiribati"
+            },
+            "urd": {
+                "official": "\u0633\u0644\u0637\u0646\u062a \u0622\u0632\u0627\u062f \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u06a9\u06cc\u0631\u06cc\u0628\u0627\u062a\u06cc",
+                "common": "\u06a9\u06cc\u0631\u06cc\u0628\u0627\u062a\u06cc"
+            },
+            "zho": {
+                "official": "\u57fa\u91cc\u5df4\u65af\u5171\u548c\u56fd",
+                "common": "\u57fa\u91cc\u5df4\u65af"
+            }
+        },
+        "latlng": [
+            1.41666666,
+            173.0
+        ],
+        "landlocked": false,
+        "area": 811.0,
+        "demonyms": {
+            "eng": {
+                "f": "I-Kiribati",
+                "m": "I-Kiribati"
+            },
+            "fra": {
+                "f": "Kiribatienne",
+                "m": "Kiribatien"
+            }
+        },
+        "flag": "\ud83c\uddf0\ud83c\uddee",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/NBfYvrndW4skAimw9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/571178"
+        },
+        "population": 119446,
+        "gini": {
+            "2006": 37.0
+        },
+        "car": {
+            "signs": [
+                "KIR"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+12:00",
+            "UTC+13:00",
+            "UTC+14:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/ki.png",
+            "svg": "https://flagcdn.com/ki.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/ki.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/ki.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                1.33,
+                172.98
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Fiji",
+            "official": "Republic of Fiji",
+            "nativeName": {
+                "eng": {
+                    "official": "Republic of Fiji",
+                    "common": "Fiji"
+                },
+                "fij": {
+                    "official": "Matanitu Tugalala o Viti",
+                    "common": "Viti"
+                },
+                "hif": {
+                    "official": "\u0930\u093f\u092a\u092c\u094d\u0932\u093f\u0915 \u0911\u092b \u092b\u0940\u091c\u0940",
+                    "common": "\u092b\u093f\u091c\u0940"
+                }
+            }
+        },
+        "tld": [
+            ".fj"
+        ],
+        "cca2": "FJ",
+        "ccn3": "242",
+        "cca3": "FJI",
+        "cioc": "FIJ",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "FJD": {
+                "name": "Fijian dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "79"
+            ]
+        },
+        "capital": [
+            "Suva"
+        ],
+        "altSpellings": [
+            "FJ",
+            "Viti",
+            "Republic of Fiji",
+            "Matanitu ko Viti",
+            "Fij\u012b Ga\u1e47ar\u0101jya"
+        ],
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "languages": {
+            "eng": "English",
+            "fij": "Fijian",
+            "hif": "Fiji Hindi"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u062c\u0632\u0631 \u0641\u064a\u062c\u064a",
+                "common": "\u0641\u064a\u062c\u064a"
+            },
+            "ces": {
+                "official": "Republika Fid\u017eijsk\u00fdch ostrov\u016f",
+                "common": "Fid\u017ei"
+            },
+            "cym": {
+                "official": "Republic of Fiji",
+                "common": "Fiji"
+            },
+            "deu": {
+                "official": "Republik Fidschi",
+                "common": "Fidschi"
+            },
+            "est": {
+                "official": "Fid\u017ei Vabariik",
+                "common": "Fid\u017ei"
+            },
+            "fin": {
+                "official": "Fid\u017ein tasavalta",
+                "common": "Fid\u017ei"
+            },
+            "fra": {
+                "official": "R\u00e9publique des Fidji",
+                "common": "Fidji"
+            },
+            "hrv": {
+                "official": "Republika Fid\u017ei",
+                "common": "Fi\u0111i"
+            },
+            "hun": {
+                "official": "Fidzsi-szigeteki K\u00f6zt\u00e1rsas\u00e1g",
+                "common": "Fidzsi-szigetek"
+            },
+            "ita": {
+                "official": "Repubblica di Figi",
+                "common": "Figi"
+            },
+            "jpn": {
+                "official": "\u30d5\u30a3\u30b8\u30fc\u5171\u548c\u56fd",
+                "common": "\u30d5\u30a3\u30b8\u30fc"
+            },
+            "kor": {
+                "official": "\ud53c\uc9c0 \uacf5\ud654\uad6d",
+                "common": "\ud53c\uc9c0"
+            },
+            "nld": {
+                "official": "Republiek Fiji",
+                "common": "Fiji"
+            },
+            "per": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u062c\u0632\u0627\u06cc\u0631 \u0641\u06cc\u062c\u06cc",
+                "common": "\u0641\u06cc\u062c\u06cc"
+            },
+            "pol": {
+                "official": "Republika Fid\u017ci",
+                "common": "Fid\u017ci"
+            },
+            "por": {
+                "official": "Rep\u00fablica de Fiji",
+                "common": "Fiji"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0424\u0438\u0434\u0436\u0438",
+                "common": "\u0424\u0438\u0434\u0436\u0438"
+            },
+            "slk": {
+                "official": "Fi\u01c6ijsk\u00e1 republika",
+                "common": "Fi\u01c6i"
+            },
+            "spa": {
+                "official": "Rep\u00fablica de Fiji",
+                "common": "Fiyi"
+            },
+            "swe": {
+                "official": "Republiken Fiji",
+                "common": "Fiji"
+            },
+            "urd": {
+                "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0641\u062c\u06cc",
+                "common": "\u0641\u062c\u06cc"
+            },
+            "zho": {
+                "official": "\u6590\u6d4e\u5171\u548c\u56fd",
+                "common": "\u6590\u6d4e"
+            }
+        },
+        "latlng": [
+            -18.0,
+            175.0
+        ],
+        "landlocked": false,
+        "area": 18272.0,
+        "demonyms": {
+            "eng": {
+                "f": "Fijian",
+                "m": "Fijian"
+            },
+            "fra": {
+                "f": "Fidjienne",
+                "m": "Fidjien"
+            }
+        },
+        "flag": "\ud83c\uddeb\ud83c\uddef",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/r9fhDqoLZdg1zmE99",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/571747"
+        },
+        "population": 896444,
+        "gini": {
+            "2013": 36.7
+        },
+        "fifa": "FIJ",
+        "car": {
+            "signs": [
+                "FJI"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+12:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/fj.png",
+            "svg": "https://flagcdn.com/fj.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/fj.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/fj.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -18.13,
+                178.42
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Niue",
+            "official": "Niue",
+            "nativeName": {
+                "eng": {
+                    "official": "Niue",
+                    "common": "Niue"
+                },
+                "niu": {
+                    "official": "Niu\u0113",
+                    "common": "Niu\u0113"
+                }
+            }
+        },
+        "tld": [
+            ".nu"
+        ],
+        "cca2": "NU",
+        "ccn3": "570",
+        "cca3": "NIU",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "NZD": {
+                "name": "New Zealand dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "83"
+            ]
+        },
+        "capital": [
+            "Alofi"
+        ],
+        "altSpellings": [
+            "NU"
+        ],
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": {
+            "eng": "English",
+            "niu": "Niuean"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u0646\u064a\u064a\u0648\u064a",
+                "common": "\u0646\u064a\u064a\u0648\u064a"
+            },
+            "ces": {
+                "official": "Niue",
+                "common": "Niue"
+            },
+            "cym": {
+                "official": "Niue",
+                "common": "Niue"
+            },
+            "deu": {
+                "official": "Niue",
+                "common": "Niue"
+            },
+            "est": {
+                "official": "Niue",
+                "common": "Niue"
+            },
+            "fin": {
+                "official": "Niue",
+                "common": "Niue"
+            },
+            "fra": {
+                "official": "Niue",
+                "common": "Niue"
+            },
+            "hrv": {
+                "official": "Niue",
+                "common": "Niue"
+            },
+            "hun": {
+                "official": "Niue",
+                "common": "Niue"
+            },
+            "ita": {
+                "official": "Niue",
+                "common": "Niue"
+            },
+            "jpn": {
+                "official": "\u30cb\u30a6\u30a8",
+                "common": "\u30cb\u30a6\u30a8"
+            },
+            "kor": {
+                "official": "\ub2c8\uc6b0\uc5d0",
+                "common": "\ub2c8\uc6b0\uc5d0"
+            },
+            "nld": {
+                "official": "Niue",
+                "common": "Niue"
+            },
+            "per": {
+                "official": "\u0646\u06cc\u0648\u0648\u06cc",
+                "common": "\u0646\u06cc\u0648\u0648\u06cc"
+            },
+            "pol": {
+                "official": "Niue",
+                "common": "Niue"
+            },
+            "por": {
+                "official": "Niue",
+                "common": "Niue"
+            },
+            "rus": {
+                "official": "\u041d\u0438\u0443\u044d",
+                "common": "\u041d\u0438\u0443\u044d"
+            },
+            "slk": {
+                "official": "Niue",
+                "common": "Niue"
+            },
+            "spa": {
+                "official": "Niue",
+                "common": "Niue"
+            },
+            "swe": {
+                "official": "Niue",
+                "common": "Niue"
+            },
+            "urd": {
+                "official": "\u0646\u06cc\u0648\u0648\u06d2",
+                "common": "\u0646\u06cc\u0648\u0648\u06d2"
+            },
+            "zho": {
+                "official": "\u7ebd\u57c3",
+                "common": "\u7ebd\u57c3"
+            }
+        },
+        "latlng": [
+            -19.03333333,
+            -169.86666666
+        ],
+        "landlocked": false,
+        "area": 260.0,
+        "demonyms": {
+            "eng": {
+                "f": "Niuean",
+                "m": "Niuean"
+            },
+            "fra": {
+                "f": "Niu\u00e9enne",
+                "m": "Niu\u00e9en"
+            }
+        },
+        "flag": "\ud83c\uddf3\ud83c\uddfa",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/xFgdzs3E55Rk1y8P9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/1558556"
+        },
+        "population": 1470,
+        "car": {
+            "signs": [
+                "NZ"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC-11:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/nu.png",
+            "svg": "https://flagcdn.com/nu.svg"
+        },
+        "coatOfArms": {},
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -19.02,
+                -169.92
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Wallis and Futuna",
+            "official": "Territory of the Wallis and Futuna Islands",
+            "nativeName": {
+                "fra": {
+                    "official": "Territoire des \u00eeles Wallis et Futuna",
+                    "common": "Wallis et Futuna"
+                }
+            }
+        },
+        "tld": [
+            ".wf"
+        ],
+        "cca2": "WF",
+        "ccn3": "876",
+        "cca3": "WLF",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "XPF": {
+                "name": "CFP franc",
+                "symbol": "\u20a3"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "81"
+            ]
+        },
+        "capital": [
+            "Mata-Utu"
+        ],
+        "altSpellings": [
+            "WF",
+            "Territory of the Wallis and Futuna Islands",
+            "Territoire des \u00eeles Wallis et Futuna"
+        ],
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": {
+            "fra": "French"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u0625\u0642\u0644\u064a\u0645 \u062c\u0632\u0631 \u0648\u0627\u0644\u064a\u0633 \u0648\u0641\u0648\u062a\u0648\u0646\u0627",
+                "common": "\u0648\u0627\u0644\u064a\u0633 \u0648\u0641\u0648\u062a\u0648\u0646\u0627"
+            },
+            "ces": {
+                "official": "Teritorium ostrov\u016f Wallis a Futuna",
+                "common": "Wallis a Futuna"
+            },
+            "cym": {
+                "official": "Territory of the Wallis and Futuna Islands",
+                "common": "Wallis and Futuna"
+            },
+            "deu": {
+                "official": "Gebiet der Wallis und Futuna",
+                "common": "Wallis und Futuna"
+            },
+            "est": {
+                "official": "Wallise ja Futuna ala",
+                "common": "Wallis ja Futuna"
+            },
+            "fin": {
+                "official": "Wallisin ja Futunan yhteis\u00f6",
+                "common": "Wallis ja Futuna"
+            },
+            "fra": {
+                "official": "Territoire des \u00eeles Wallis et Futuna",
+                "common": "Wallis-et-Futuna"
+            },
+            "hrv": {
+                "official": "Teritoriju Wallis i Futuna",
+                "common": "Wallis i Fortuna"
+            },
+            "hun": {
+                "official": "Wallis \u00e9s Futuna",
+                "common": "Wallis \u00e9s Futuna"
+            },
+            "ita": {
+                "official": "Territorio delle Isole Wallis e Futuna",
+                "common": "Wallis e Futuna"
+            },
+            "jpn": {
+                "official": "\u30a6\u30a9\u30ea\u30b9\u00b7\u30d5\u30c4\u30ca\u8af8\u5cf6\u306e\u9818\u571f",
+                "common": "\u30a6\u30a9\u30ea\u30b9\u30fb\u30d5\u30c4\u30ca"
+            },
+            "kor": {
+                "official": "\uc648\ub9ac\uc2a4 \ud4cc\ud280\ub098",
+                "common": "\uc648\ub9ac\uc2a4 \ud4cc\ud280\ub098"
+            },
+            "nld": {
+                "official": "Grondgebied van de Wallis en Futuna",
+                "common": "Wallis en Futuna"
+            },
+            "per": {
+                "official": "\u062c\u0632\u0627\u06cc\u0631 \u0648\u0627\u0644\u06cc\u0633 \u0648 \u0641\u0648\u062a\u0648\u0646\u0627",
+                "common": "\u0648\u0627\u0644\u06cc\u0633 \u0648 \u0641\u0648\u062a\u0648\u0646\u0627"
+            },
+            "pol": {
+                "official": "Terytorium Wysp Wallis i Futuna",
+                "common": "Wallis i Futuna"
+            },
+            "por": {
+                "official": "Territ\u00f3rio das Ilhas Wallis e Futuna",
+                "common": "Wallis e Futuna"
+            },
+            "rus": {
+                "official": "\u0422\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f \u0423\u043e\u043b\u043b\u0438\u0441 \u0438 \u0424\u0443\u0442\u0443\u043d\u0430 \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
+                "common": "\u0423\u043e\u043b\u043b\u0438\u0441 \u0438 \u0424\u0443\u0442\u0443\u043d\u0430"
+            },
+            "slk": {
+                "official": "Terit\u00f3rium ostrovov Wallis a Futuna",
+                "common": "Wallis a Futuna"
+            },
+            "spa": {
+                "official": "Territorio de las Islas Wallis y Futuna",
+                "common": "Wallis y Futuna"
+            },
+            "swe": {
+                "official": "Territoriet Wallis- och Futuna\u00f6arna",
+                "common": "Wallis- och Futuna\u00f6arna"
+            },
+            "urd": {
+                "official": "\u0633\u0631 \u0632\u0645\u06cc\u0646\u0650 \u0648\u0627\u0644\u0633 \u0648 \u0641\u062a\u0648\u0646\u06c1 \u062c\u0632\u0627\u0626\u0631",
+                "common": "\u0648\u0627\u0644\u0633 \u0648 \u0641\u062a\u0648\u0646\u06c1"
+            },
+            "zho": {
+                "official": "\u74e6\u5229\u65af\u548c\u5bcc\u56fe\u7eb3\u7fa4\u5c9b",
+                "common": "\u74e6\u5229\u65af\u548c\u5bcc\u56fe\u7eb3\u7fa4\u5c9b"
+            }
+        },
+        "latlng": [
+            -13.3,
+            -176.2
+        ],
+        "landlocked": false,
+        "area": 142.0,
+        "demonyms": {
+            "eng": {
+                "f": "Wallis and Futuna Islander",
+                "m": "Wallis and Futuna Islander"
+            }
+        },
+        "flag": "\ud83c\uddfc\ud83c\uddeb",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/CzVqK74QYtbHv65r5",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/3412448"
+        },
+        "population": 11750,
+        "car": {
+            "signs": [
+                "F"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+12:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/wf.png",
+            "svg": "https://flagcdn.com/wf.svg"
+        },
+        "coatOfArms": {},
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -13.95,
+                -171.93
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(986\\d{2})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Samoa",
+            "official": "Independent State of Samoa",
+            "nativeName": {
+                "eng": {
+                    "official": "Independent State of Samoa",
+                    "common": "Samoa"
+                },
+                "smo": {
+                    "official": "Malo Sa\u02bboloto Tuto\u02bbatasi o S\u0101moa",
+                    "common": "S\u0101moa"
+                }
+            }
+        },
+        "tld": [
+            ".ws"
+        ],
+        "cca2": "WS",
+        "ccn3": "882",
+        "cca3": "WSM",
+        "cioc": "SAM",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "WST": {
+                "name": "Samoan t\u0101l\u0101",
+                "symbol": "T"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "85"
+            ]
+        },
+        "capital": [
+            "Apia"
+        ],
+        "altSpellings": [
+            "WS",
+            "Independent State of Samoa",
+            "Malo Sa\u02bboloto Tuto\u02bbatasi o S\u0101moa"
+        ],
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": {
+            "eng": "English",
+            "smo": "Samoan"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062f\u0648\u0644\u0629 \u0633\u0627\u0645\u0648\u0627 \u0627\u0644\u0645\u0633\u062a\u0642\u0644\u0629",
+                "common": "\u0633\u0627\u0645\u0648\u0627"
+            },
+            "ces": {
+                "official": "Nez\u00e1visl\u00fd st\u00e1t Samoa",
+                "common": "Samoa"
+            },
+            "cym": {
+                "official": "Independent State of Samoa",
+                "common": "Samoa"
+            },
+            "deu": {
+                "official": "Unabh\u00e4ngige Staat Samoa",
+                "common": "Samoa"
+            },
+            "est": {
+                "official": "Samoa Iseseisvusriik",
+                "common": "Samoa"
+            },
+            "fin": {
+                "official": "Samoan itsen\u00e4inen valtio",
+                "common": "Samoa"
+            },
+            "fra": {
+                "official": "Samoa",
+                "common": "Samoa"
+            },
+            "hrv": {
+                "official": "Nezavisna Dr\u017eava Samoa",
+                "common": "Samoa"
+            },
+            "hun": {
+                "official": "Szamoai F\u00fcggetlen \u00c1llam",
+                "common": "Szamoa"
+            },
+            "ita": {
+                "official": "Stato indipendente di Samoa",
+                "common": "Samoa"
+            },
+            "jpn": {
+                "official": "\u30b5\u30e2\u30a2\u72ec\u7acb\u56fd",
+                "common": "\u30b5\u30e2\u30a2"
+            },
+            "kor": {
+                "official": "\uc0ac\ubaa8\uc544 \ub3c5\ub9bd\uad6d",
+                "common": "\uc0ac\ubaa8\uc544"
+            },
+            "nld": {
+                "official": "Onafhankelijke Staat Samoa",
+                "common": "Samoa"
+            },
+            "per": {
+                "official": "\u0627\u06cc\u0627\u0644\u062a \u0645\u0633\u062a\u0642\u0644 \u0633\u0627\u0645\u0648\u0622",
+                "common": "\u0633\u0627\u0645\u0648\u0622"
+            },
+            "pol": {
+                "official": "Niezale\u017cne Pa\u0144stwo Samoa",
+                "common": "Samoa"
+            },
+            "por": {
+                "official": "Estado Independente de Samoa",
+                "common": "Samoa"
+            },
+            "rus": {
+                "official": "\u041d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0435 \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e \u0421\u0430\u043c\u043e\u0430",
+                "common": "\u0421\u0430\u043c\u043e\u0430"
+            },
+            "slk": {
+                "official": "Nez\u00e1visl\u00fd \u0161t\u00e1tSamoa",
+                "common": "Samoa"
+            },
+            "spa": {
+                "official": "Estado Independiente de Samoa",
+                "common": "Samoa"
+            },
+            "swe": {
+                "official": "Sj\u00e4lvst\u00e4ndiga staten Samoa",
+                "common": "Samoa"
+            },
+            "urd": {
+                "official": "\u0622\u0632\u0627\u062f \u0633\u0644\u0637\u0646\u062a\u0650 \u0633\u0627\u0645\u0648\u0627",
+                "common": "\u0633\u0627\u0645\u0648\u0648\u0627"
+            },
+            "zho": {
+                "official": "\u8428\u6469\u4e9a\u72ec\u7acb\u56fd",
+                "common": "\u8428\u6469\u4e9a"
+            }
+        },
+        "latlng": [
+            -13.58333333,
+            -172.33333333
+        ],
+        "landlocked": false,
+        "area": 2842.0,
+        "demonyms": {
+            "eng": {
+                "f": "Samoan",
+                "m": "Samoan"
+            },
+            "fra": {
+                "f": "Samoane",
+                "m": "Samoan"
+            }
+        },
+        "flag": "\ud83c\uddfc\ud83c\uddf8",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/CFC9fEFP9cfkYUBF9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/1872673"
+        },
+        "population": 198410,
+        "gini": {
+            "2013": 38.7
+        },
+        "fifa": "SAM",
+        "car": {
+            "signs": [
+                "WS"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+13:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/ws.png",
+            "svg": "https://flagcdn.com/ws.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/ws.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/ws.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -13.82,
+                -171.77
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Tuvalu",
+            "official": "Tuvalu",
+            "nativeName": {
+                "eng": {
+                    "official": "Tuvalu",
+                    "common": "Tuvalu"
+                },
+                "tvl": {
+                    "official": "Tuvalu",
+                    "common": "Tuvalu"
+                }
+            }
+        },
+        "tld": [
+            ".tv"
+        ],
+        "cca2": "TV",
+        "ccn3": "798",
+        "cca3": "TUV",
+        "cioc": "TUV",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "AUD": {
+                "name": "Australian dollar",
+                "symbol": "$"
+            },
+            "TVD": {
+                "name": "Tuvaluan dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "88"
+            ]
+        },
+        "capital": [
+            "Funafuti"
+        ],
+        "altSpellings": [
+            "TV"
+        ],
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": {
+            "eng": "English",
+            "tvl": "Tuvaluan"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062a\u0648\u0641\u0627\u0644\u0648",
+                "common": "\u062a\u0648\u0641\u0627\u0644\u0648"
+            },
+            "ces": {
+                "official": "Tuvalu",
+                "common": "Tuvalu"
+            },
+            "cym": {
+                "official": "Tuvalu",
+                "common": "Tuvalu"
+            },
+            "deu": {
+                "official": "Tuvalu",
+                "common": "Tuvalu"
+            },
+            "est": {
+                "official": "Tuvalu",
+                "common": "Tuvalu"
+            },
+            "fin": {
+                "official": "Tuvalu",
+                "common": "Tuvalu"
+            },
+            "fra": {
+                "official": "Tuvalu",
+                "common": "Tuvalu"
+            },
+            "hrv": {
+                "official": "Tuvalu",
+                "common": "Tuvalu"
+            },
+            "hun": {
+                "official": "Tuvalu",
+                "common": "Tuvalu"
+            },
+            "ita": {
+                "official": "Tuvalu",
+                "common": "Tuvalu"
+            },
+            "jpn": {
+                "official": "\u30c4\u30d0\u30eb",
+                "common": "\u30c4\u30d0\u30eb"
+            },
+            "kor": {
+                "official": "\ud22c\ubc1c\ub8e8",
+                "common": "\ud22c\ubc1c\ub8e8"
+            },
+            "nld": {
+                "official": "Tuvalu",
+                "common": "Tuvalu"
+            },
+            "per": {
+                "official": "\u062a\u0648\u0648\u0627\u0644\u0648",
+                "common": "\u062a\u0648\u0648\u0627\u0644\u0648"
+            },
+            "pol": {
+                "official": "Tuvalu",
+                "common": "Tuvalu"
+            },
+            "por": {
+                "official": "Tuvalu",
+                "common": "Tuvalu"
+            },
+            "rus": {
+                "official": "\u0422\u0443\u0432\u0430\u043b\u0443",
+                "common": "\u0422\u0443\u0432\u0430\u043b\u0443"
+            },
+            "slk": {
+                "official": "Tuvalu",
+                "common": "Tuvalu"
+            },
+            "spa": {
+                "official": "Tuvalu",
+                "common": "Tuvalu"
+            },
+            "swe": {
+                "official": "Tuvalu",
+                "common": "Tuvalu"
+            },
+            "urd": {
+                "official": "\u062a\u0648\u0648\u0627\u0644\u0648",
+                "common": "\u062a\u0648\u0648\u0627\u0644\u0648"
+            },
+            "zho": {
+                "official": "\u56fe\u74e6\u5362",
+                "common": "\u56fe\u74e6\u5362"
+            }
+        },
+        "latlng": [
+            -8.0,
+            178.0
+        ],
+        "landlocked": false,
+        "area": 26.0,
+        "demonyms": {
+            "eng": {
+                "f": "Tuvaluan",
+                "m": "Tuvaluan"
+            },
+            "fra": {
+                "f": "Tuvaluane",
+                "m": "Tuvaluan"
+            }
+        },
+        "flag": "\ud83c\uddf9\ud83c\uddfb",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/LbuUxtkgm1dfN1Pn6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/2177266"
+        },
+        "population": 11792,
+        "gini": {
+            "2010": 39.1
+        },
+        "car": {
+            "signs": [
+                "TUV"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+12:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/tv.png",
+            "svg": "https://flagcdn.com/tv.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/tv.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/tv.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -8.52,
+                179.22
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Guam",
+            "official": "Guam",
+            "nativeName": {
+                "cha": {
+                    "official": "Gu\u00e5h\u00e5n",
+                    "common": "Gu\u00e5h\u00e5n"
+                },
+                "eng": {
+                    "official": "Guam",
+                    "common": "Guam"
+                },
+                "spa": {
+                    "official": "Guam",
+                    "common": "Guam"
+                }
+            }
+        },
+        "tld": [
+            ".gu"
+        ],
+        "cca2": "GU",
+        "ccn3": "316",
+        "cca3": "GUM",
+        "cioc": "GUM",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "USD": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "671"
+            ]
+        },
+        "capital": [
+            "Hag\u00e5t\u00f1a"
+        ],
+        "altSpellings": [
+            "GU",
+            "Gu\u00e5h\u00e5n"
+        ],
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "languages": {
+            "cha": "Chamorro",
+            "eng": "English",
+            "spa": "Spanish"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u063a\u0648\u0627\u0645",
+                "common": "\u063a\u0648\u0627\u0645"
+            },
+            "ces": {
+                "official": "Guam",
+                "common": "Guam"
+            },
+            "cym": {
+                "official": "Guam",
+                "common": "Guam"
+            },
+            "deu": {
+                "official": "Guam",
+                "common": "Guam"
+            },
+            "est": {
+                "official": "Guami ala",
+                "common": "Guam"
+            },
+            "fin": {
+                "official": "Guam",
+                "common": "Guam"
+            },
+            "fra": {
+                "official": "Guam",
+                "common": "Guam"
+            },
+            "hrv": {
+                "official": "Guam",
+                "common": "Guam"
+            },
+            "hun": {
+                "official": "Guam",
+                "common": "Guam"
+            },
+            "ita": {
+                "official": "Guam",
+                "common": "Guam"
+            },
+            "jpn": {
+                "official": "\u30b0\u30a2\u30e0",
+                "common": "\u30b0\u30a2\u30e0"
+            },
+            "kor": {
+                "official": "\uad0c",
+                "common": "\uad0c"
+            },
+            "nld": {
+                "official": "Guam",
+                "common": "Guam"
+            },
+            "per": {
+                "official": "\u06af\u0648\u0622\u0645",
+                "common": "\u06af\u0648\u0622\u0645"
+            },
+            "pol": {
+                "official": "Terytorium Guamu",
+                "common": "Guam"
+            },
+            "por": {
+                "official": "Guam",
+                "common": "Guam"
+            },
+            "rus": {
+                "official": "\u0413\u0443\u0430\u043c",
+                "common": "\u0413\u0443\u0430\u043c"
+            },
+            "slk": {
+                "official": "Guam",
+                "common": "Guam"
+            },
+            "spa": {
+                "official": "Guam",
+                "common": "Guam"
+            },
+            "swe": {
+                "official": "Guam",
+                "common": "Guam"
+            },
+            "urd": {
+                "official": "\u06af\u0648\u0627\u0645",
+                "common": "\u06af\u0648\u0627\u0645"
+            },
+            "zho": {
+                "official": "\u5173\u5c9b",
+                "common": "\u5173\u5c9b"
+            }
+        },
+        "latlng": [
+            13.46666666,
+            144.78333333
+        ],
+        "landlocked": false,
+        "area": 549.0,
+        "demonyms": {
+            "eng": {
+                "f": "Guamanian",
+                "m": "Guamanian"
+            }
+        },
+        "flag": "\ud83c\uddec\ud83c\uddfa",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/Xfnq2i279b18cH3C9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/306001"
+        },
+        "population": 168783,
+        "fifa": "GUM",
+        "car": {
+            "signs": [
+                "USA"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+10:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/gu.png",
+            "svg": "https://flagcdn.com/gu.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/gu.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/gu.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                13.48,
+                144.75
+            ]
+        },
+        "postalCode": {
+            "format": "969##",
+            "regex": "^(969\\d{2})$"
+        }
+    },
+    {
+        "name": {
+            "common": "New Caledonia",
+            "official": "New Caledonia",
+            "nativeName": {
+                "fra": {
+                    "official": "Nouvelle-Cal\u00e9donie",
+                    "common": "Nouvelle-Cal\u00e9donie"
+                }
+            }
+        },
+        "tld": [
+            ".nc"
+        ],
+        "cca2": "NC",
+        "ccn3": "540",
+        "cca3": "NCL",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "XPF": {
+                "name": "CFP franc",
+                "symbol": "\u20a3"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "87"
+            ]
+        },
+        "capital": [
+            "Noum\u00e9a"
+        ],
+        "altSpellings": [
+            "NC"
+        ],
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "languages": {
+            "fra": "French"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u0643\u0627\u0644\u064a\u062f\u0648\u0646\u064a\u0627 \u0627\u0644\u062c\u062f\u064a\u062f\u0629",
+                "common": "\u0643\u0627\u0644\u064a\u062f\u0648\u0646\u064a\u0627 \u0627\u0644\u062c\u062f\u064a\u062f\u0629"
+            },
+            "ces": {
+                "official": "Nov\u00e1 Kaledonie",
+                "common": "Nov\u00e1 Kaledonie"
+            },
+            "cym": {
+                "official": "New Caledonia",
+                "common": "New Caledonia"
+            },
+            "deu": {
+                "official": "Neukaledonien",
+                "common": "Neukaledonien"
+            },
+            "est": {
+                "official": "Uus-Kaledoonia",
+                "common": "Uus-Kaledoonia"
+            },
+            "fin": {
+                "official": "Uusi-Kaledonia",
+                "common": "Uusi-Kaledonia"
+            },
+            "fra": {
+                "official": "Nouvelle-Cal\u00e9donie",
+                "common": "Nouvelle-Cal\u00e9donie"
+            },
+            "hrv": {
+                "official": "Nova Kaledonija",
+                "common": "Nova Kaledonija"
+            },
+            "hun": {
+                "official": "\u00daj-Kaled\u00f3nia",
+                "common": "\u00daj-Kaled\u00f3nia"
+            },
+            "ita": {
+                "official": "Nuova Caledonia",
+                "common": "Nuova Caledonia"
+            },
+            "jpn": {
+                "official": "\u30cb\u30e5\u30fc\u30ab\u30ec\u30c9\u30cb\u30a2",
+                "common": "\u30cb\u30e5\u30fc\u30ab\u30ec\u30c9\u30cb\u30a2"
+            },
+            "kor": {
+                "official": "\ub204\ubca8\uce7c\ub808\ub3c4\ub2c8",
+                "common": "\ub204\ubca8\uce7c\ub808\ub3c4\ub2c8"
+            },
+            "nld": {
+                "official": "nieuw -Caledoni\u00eb",
+                "common": "Nieuw-Caledoni\u00eb"
+            },
+            "per": {
+                "official": "\u06a9\u0627\u0644\u062f\u0648\u0646\u06cc\u0627\u06cc \u062c\u062f\u06cc\u062f",
+                "common": "\u06a9\u0627\u0644\u062f\u0648\u0646\u06cc\u0627\u06cc \u062c\u062f\u06cc\u062f"
+            },
+            "pol": {
+                "official": "Nowa Kaledonia",
+                "common": "Nowa Kaledonia"
+            },
+            "por": {
+                "official": "New Caledonia",
+                "common": "Nova Caled\u00f3nia"
+            },
+            "rus": {
+                "official": "\u041d\u043e\u0432\u0430\u044f \u041a\u0430\u043b\u0435\u0434\u043e\u043d\u0438\u044f",
+                "common": "\u041d\u043e\u0432\u0430\u044f \u041a\u0430\u043b\u0435\u0434\u043e\u043d\u0438\u044f"
+            },
+            "slk": {
+                "official": "Nov\u00e1 Kaled\u00f3nia",
+                "common": "Nov\u00e1 Kaled\u00f3nia"
+            },
+            "spa": {
+                "official": "nueva Caledonia",
+                "common": "Nueva Caledonia"
+            },
+            "swe": {
+                "official": "Nya Kaledonien",
+                "common": "Nya Kaledonien"
+            },
+            "urd": {
+                "official": "\u0646\u06cc\u0648 \u06a9\u06cc\u0644\u06cc\u0688\u0648\u0646\u06cc\u0627",
+                "common": "\u0646\u06cc\u0648 \u06a9\u06cc\u0644\u06cc\u0688\u0648\u0646\u06cc\u0627"
+            },
+            "zho": {
+                "official": "\u65b0\u5580\u91cc\u591a\u5c3c\u4e9a",
+                "common": "\u65b0\u5580\u91cc\u591a\u5c3c\u4e9a"
+            }
+        },
+        "latlng": [
+            -21.5,
+            165.5
+        ],
+        "landlocked": false,
+        "area": 18575.0,
+        "demonyms": {
+            "eng": {
+                "f": "New Caledonian",
+                "m": "New Caledonian"
+            },
+            "fra": {
+                "f": "N\u00e9o-Cal\u00e9donienne",
+                "m": "N\u00e9o-Cal\u00e9donien"
+            }
+        },
+        "flag": "\ud83c\uddf3\ud83c\udde8",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/cBhtCeMdob4U7FRU9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/3407643"
+        },
+        "population": 271960,
+        "fifa": "NCL",
+        "car": {
+            "signs": [
+                "F"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+11:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/nc.png",
+            "svg": "https://flagcdn.com/nc.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/nc.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/nc.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -22.27,
+                166.45
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Solomon Islands",
+            "official": "Solomon Islands",
+            "nativeName": {
+                "eng": {
+                    "official": "Solomon Islands",
+                    "common": "Solomon Islands"
+                }
+            }
+        },
+        "tld": [
+            ".sb"
+        ],
+        "cca2": "SB",
+        "ccn3": "090",
+        "cca3": "SLB",
+        "cioc": "SOL",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "SBD": {
+                "name": "Solomon Islands dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "77"
+            ]
+        },
+        "capital": [
+            "Honiara"
+        ],
+        "altSpellings": [
+            "SB"
+        ],
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "languages": {
+            "eng": "English"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0632\u0631 \u0633\u0644\u064a\u0645\u0627\u0646",
+                "common": "\u062c\u0632\u0631 \u0633\u0644\u064a\u0645\u0627\u0646"
+            },
+            "ces": {
+                "official": "\u0160alamounovy ostrovy",
+                "common": "\u0160alamounovy ostrovy"
+            },
+            "cym": {
+                "official": "Solomon Islands",
+                "common": "Solomon Islands"
+            },
+            "deu": {
+                "official": "Salomonen",
+                "common": "Salomonen"
+            },
+            "est": {
+                "official": "Saalomoni Saared",
+                "common": "Saalomoni Saared"
+            },
+            "fin": {
+                "official": "Salomonsaaret",
+                "common": "Salomonsaaret"
+            },
+            "fra": {
+                "official": "\u00celes Salomon",
+                "common": "\u00celes Salomon"
+            },
+            "hrv": {
+                "official": "Solomonski Otoci",
+                "common": "Solomonski Otoci"
+            },
+            "hun": {
+                "official": "Salamon-szigetek",
+                "common": "Salamon-szigetek"
+            },
+            "ita": {
+                "official": "Isole Salomone",
+                "common": "Isole Salomone"
+            },
+            "jpn": {
+                "official": "\u30bd\u30ed\u30e2\u30f3\u8af8\u5cf6",
+                "common": "\u30bd\u30ed\u30e2\u30f3\u8af8\u5cf6"
+            },
+            "kor": {
+                "official": "\uc194\ub85c\ubaac \uc81c\ub3c4",
+                "common": "\uc194\ub85c\ubaac \uc81c\ub3c4"
+            },
+            "nld": {
+                "official": "Solomon eilanden",
+                "common": "Salomonseilanden"
+            },
+            "per": {
+                "official": "\u062c\u0632\u0627\u06cc\u0631 \u0633\u0644\u06cc\u0645\u0627\u0646",
+                "common": "\u062c\u0632\u0627\u06cc\u0631 \u0633\u0644\u06cc\u0645\u0627\u0646"
+            },
+            "pol": {
+                "official": "Wyspy Salomona",
+                "common": "Wyspy Salomona"
+            },
+            "por": {
+                "official": "Ilhas Salom\u00e3o",
+                "common": "Ilhas Salom\u00e3o"
+            },
+            "rus": {
+                "official": "\u0421\u043e\u043b\u043e\u043c\u043e\u043d\u043e\u0432\u044b \u043e\u0441\u0442\u0440\u043e\u0432\u0430",
+                "common": "\u0421\u043e\u043b\u043e\u043c\u043e\u043d\u043e\u0432\u044b \u041e\u0441\u0442\u0440\u043e\u0432\u0430"
+            },
+            "slk": {
+                "official": "Salomonove ostrovy",
+                "common": "Salomonove ostrovy"
+            },
+            "spa": {
+                "official": "islas Salom\u00f3n",
+                "common": "Islas Salom\u00f3n"
+            },
+            "swe": {
+                "official": "Salomon\u00f6arna",
+                "common": "Salomon\u00f6arna"
+            },
+            "urd": {
+                "official": "\u062c\u0632\u0627\u0626\u0631 \u0633\u0644\u06cc\u0645\u0627\u0646",
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u0633\u0644\u06cc\u0645\u0627\u0646"
+            },
+            "zho": {
+                "official": "\u6240\u7f57\u95e8\u7fa4\u5c9b",
+                "common": "\u6240\u7f57\u95e8\u7fa4\u5c9b"
+            }
+        },
+        "latlng": [
+            -8.0,
+            159.0
+        ],
+        "landlocked": false,
+        "area": 28896.0,
+        "demonyms": {
+            "eng": {
+                "f": "Solomon Islander",
+                "m": "Solomon Islander"
+            },
+            "fra": {
+                "f": "Salomonienne",
+                "m": "Salomonien"
+            }
+        },
+        "flag": "\ud83c\uddf8\ud83c\udde7",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/JbPkx86Ywjv8C1n8A",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/1857436"
+        },
+        "population": 686878,
+        "gini": {
+            "2012": 37.1
+        },
+        "fifa": "SOL",
+        "car": {
+            "signs": [
+                "SOL"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+11:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/sb.png",
+            "svg": "https://flagcdn.com/sb.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/sb.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/sb.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -9.43,
+                159.95
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Australia",
+            "official": "Commonwealth of Australia",
+            "nativeName": {
+                "eng": {
+                    "official": "Commonwealth of Australia",
+                    "common": "Australia"
+                }
+            }
+        },
+        "tld": [
+            ".au"
+        ],
+        "cca2": "AU",
+        "ccn3": "036",
+        "cca3": "AUS",
+        "cioc": "AUS",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "AUD": {
+                "name": "Australian dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "1"
+            ]
+        },
+        "capital": [
+            "Canberra"
+        ],
+        "altSpellings": [
+            "AU"
+        ],
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "languages": {
+            "eng": "English"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u0643\u0648\u0645\u0648\u0646\u0648\u0644\u062b \u0623\u0633\u062a\u0631\u0627\u0644\u064a\u0627",
+                "common": "\u0623\u0633\u062a\u0631\u0627\u0644\u064a\u0627"
+            },
+            "ces": {
+                "official": "Australsk\u00e9 spole\u010denstv\u00ed",
+                "common": "Austr\u00e1lie"
+            },
+            "cym": {
+                "official": "Cymanwlad Awstralia",
+                "common": "Awstralia"
+            },
+            "deu": {
+                "official": "Commonwealth Australien",
+                "common": "Australien"
+            },
+            "est": {
+                "official": "Austraalia \u00dchendus",
+                "common": "Austraalia"
+            },
+            "fin": {
+                "official": "Australian liittovaltio",
+                "common": "Australia"
+            },
+            "fra": {
+                "official": "Australie",
+                "common": "Australie"
+            },
+            "hrv": {
+                "official": "Commonwealth of Australia",
+                "common": "Australija"
+            },
+            "hun": {
+                "official": "Ausztr\u00e1l \u00c1llamsz\u00f6vets\u00e9g",
+                "common": "Ausztr\u00e1lia"
+            },
+            "ita": {
+                "official": "Commonwealth dell'Australia",
+                "common": "Australia"
+            },
+            "jpn": {
+                "official": "\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2\u9023\u90a6",
+                "common": "\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2"
+            },
+            "kor": {
+                "official": "\uc624\uc2a4\ud2b8\ub808\uc77c\ub9ac\uc544 \uc5f0\ubc29",
+                "common": "\ud638\uc8fc"
+            },
+            "nld": {
+                "official": "Gemenebest van Australi\u00eb",
+                "common": "Australi\u00eb"
+            },
+            "per": {
+                "official": "\u0642\u0644\u0645\u0631\u0648 \u0647\u0645\u0633\u0648\u062f \u0627\u0633\u062a\u0631\u0627\u0644\u06cc\u0627",
+                "common": "\u0627\u0633\u062a\u0631\u0627\u0644\u06cc\u0627"
+            },
+            "pol": {
+                "official": "Zwi\u0105zek Australijski",
+                "common": "Australia"
+            },
+            "por": {
+                "official": "Comunidade da Austr\u00e1lia",
+                "common": "Austr\u00e1lia"
+            },
+            "rus": {
+                "official": "\u0421\u043e\u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043e \u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u0438",
+                "common": "\u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u044f"
+            },
+            "slk": {
+                "official": "Austr\u00e1lsky zv\u00e4z",
+                "common": "Austr\u00e1lia"
+            },
+            "spa": {
+                "official": "Mancomunidad de Australia",
+                "common": "Australia"
+            },
+            "swe": {
+                "official": "Australiska statsf\u00f6rbundet",
+                "common": "Australien"
+            },
+            "urd": {
+                "official": "\u062f\u0648\u0644\u062a\u0650 \u0645\u0634\u062a\u0631\u06a9\u06c1 \u0622\u0633\u0679\u0631\u06cc\u0644\u06cc\u0627",
+                "common": "\u0622\u0633\u0679\u0631\u06cc\u0644\u06cc\u0627"
+            },
+            "zho": {
+                "official": "\u6fb3\u5927\u5229\u4e9a\u8054\u90a6",
+                "common": "\u6fb3\u5927\u5229\u4e9a"
+            }
+        },
+        "latlng": [
+            -27.0,
+            133.0
+        ],
+        "landlocked": false,
+        "area": 7692024.0,
+        "demonyms": {
+            "eng": {
+                "f": "Australian",
+                "m": "Australian"
+            },
+            "fra": {
+                "f": "Australienne",
+                "m": "Australien"
+            }
+        },
+        "flag": "\ud83c\udde6\ud83c\uddfa",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/DcjaDa7UbhnZTndH6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/80500"
+        },
+        "population": 25687041,
+        "gini": {
+            "2014": 34.4
+        },
+        "fifa": "AUS",
+        "car": {
+            "signs": [
+                "AUS"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+05:00",
+            "UTC+06:30",
+            "UTC+07:00",
+            "UTC+08:00",
+            "UTC+09:30",
+            "UTC+10:00",
+            "UTC+10:30",
+            "UTC+11:30"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/au.png",
+            "svg": "https://flagcdn.com/au.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/au.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/au.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -35.27,
+                149.13
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Micronesia",
+            "official": "Federated States of Micronesia",
+            "nativeName": {
+                "eng": {
+                    "official": "Federated States of Micronesia",
+                    "common": "Micronesia"
+                }
+            }
+        },
+        "tld": [
+            ".fm"
+        ],
+        "cca2": "FM",
+        "ccn3": "583",
+        "cca3": "FSM",
+        "cioc": "FSM",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "USD": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "91"
+            ]
+        },
+        "capital": [
+            "Palikir"
+        ],
+        "altSpellings": [
+            "FM",
+            "Federated States of Micronesia",
+            "Micronesia, Federated States of"
+        ],
+        "region": "Oceania",
+        "subregion": "Micronesia",
+        "languages": {
+            "eng": "English"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u0648\u0644\u0627\u064a\u0627\u062a \u0645\u064a\u0643\u0631\u0648\u0646\u064a\u0633\u064a\u0627 \u0627\u0644\u0645\u062a\u062d\u062f\u0629",
+                "common": "\u0645\u064a\u0643\u0631\u0648\u0646\u064a\u0633\u064a\u0627"
+            },
+            "ces": {
+                "official": "Federativn\u00ed st\u00e1ty Mikron\u00e9sie",
+                "common": "Mikron\u00e9sie"
+            },
+            "cym": {
+                "official": "Federated States of Micronesia",
+                "common": "Micronesia"
+            },
+            "deu": {
+                "official": "F\u00f6derierte Staaten von Mikronesien",
+                "common": "Mikronesien"
+            },
+            "est": {
+                "official": "Mikroneesia Liiduriigid",
+                "common": "Mikroneesia"
+            },
+            "fin": {
+                "official": "Mikronesian liittovaltio",
+                "common": "Mikronesia"
+            },
+            "fra": {
+                "official": "\u00c9tats f\u00e9d\u00e9r\u00e9s de Micron\u00e9sie",
+                "common": "Micron\u00e9sie"
+            },
+            "hrv": {
+                "official": "Savezne Dr\u017eave Mikronezije",
+                "common": "Mikronezija"
+            },
+            "hun": {
+                "official": "Mikron\u00e9ziai Sz\u00f6vets\u00e9gi \u00c1llamok",
+                "common": "Mikron\u00e9ziai Sz\u00f6vets\u00e9gi \u00c1llamok"
+            },
+            "ita": {
+                "official": "Stati federati di Micronesia",
+                "common": "Micronesia"
+            },
+            "jpn": {
+                "official": "\u30df\u30af\u30ed\u30cd\u30b7\u30a2\u9023\u90a6",
+                "common": "\u30df\u30af\u30ed\u30cd\u30b7\u30a2\u9023\u90a6"
+            },
+            "kor": {
+                "official": "\ubbf8\ud06c\ub85c\ub124\uc2dc\uc544 \uc5f0\ubc29",
+                "common": "\ubbf8\ud06c\ub85c\ub124\uc2dc\uc544"
+            },
+            "nld": {
+                "official": "Federale Staten van Micronesia",
+                "common": "Micronesi\u00eb"
+            },
+            "per": {
+                "official": "\u0627\u06cc\u0627\u0644\u0627\u062a \u0641\u062f\u0631\u0627\u0644 \u0645\u06cc\u06a9\u0631\u0648\u0646\u0632\u06cc",
+                "common": "\u0645\u06cc\u06a9\u0631\u0648\u0646\u0632\u06cc"
+            },
+            "pol": {
+                "official": "Sfederowane Stany Mikronezji",
+                "common": "Mikronezja"
+            },
+            "por": {
+                "official": "Estados Federados da Micron\u00e9sia",
+                "common": "Micron\u00e9sia"
+            },
+            "rus": {
+                "official": "\u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u041c\u0438\u043a\u0440\u043e\u043d\u0435\u0437\u0438\u0438",
+                "common": "\u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u041c\u0438\u043a\u0440\u043e\u043d\u0435\u0437\u0438\u0438"
+            },
+            "slk": {
+                "official": "Mikron\u00e9zske federat\u00edvne \u0161t\u00e1ty",
+                "common": "Mikron\u00e9zia"
+            },
+            "spa": {
+                "official": "Estados Federados de Micronesia",
+                "common": "Micronesia"
+            },
+            "swe": {
+                "official": "Mikronesiska federationen",
+                "common": "Mikronesiska federationen"
+            },
+            "urd": {
+                "official": "\u0631\u06cc\u0627\u0633\u062a\u06c1\u0627\u0626\u06d2 \u0648\u0641\u0627\u0642\u06cc\u06c1 \u0645\u0627\u0626\u06a9\u0631\u0648\u0646\u06cc\u0634\u06cc\u0627",
+                "common": "\u0645\u0627\u0626\u06a9\u0631\u0648\u0646\u06cc\u0634\u06cc\u0627"
+            },
+            "zho": {
+                "official": "\u5bc6\u514b\u7f57\u5c3c\u897f\u4e9a\u8054\u90a6",
+                "common": "\u5bc6\u514b\u7f57\u5c3c\u897f\u4e9a"
+            }
+        },
+        "latlng": [
+            6.91666666,
+            158.25
+        ],
+        "landlocked": false,
+        "area": 702.0,
+        "demonyms": {
+            "eng": {
+                "f": "Micronesian",
+                "m": "Micronesian"
+            },
+            "fra": {
+                "f": "Micron\u00e9sienne",
+                "m": "Micron\u00e9sien"
+            }
+        },
+        "flag": "\ud83c\uddeb\ud83c\uddf2",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/LLcnofC5LxZsJXTo8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/571802"
+        },
+        "population": 115021,
+        "gini": {
+            "2013": 40.1
+        },
+        "car": {
+            "signs": [
+                "FSM"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+10:00",
+            "UTC+11"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/fm.png",
+            "svg": "https://flagcdn.com/fm.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/fm.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/fm.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                6.92,
+                158.15
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Vanuatu",
+            "official": "Republic of Vanuatu",
+            "nativeName": {
+                "bis": {
+                    "official": "Ripablik blong Vanuatu",
+                    "common": "Vanuatu"
+                },
+                "eng": {
+                    "official": "Republic of Vanuatu",
+                    "common": "Vanuatu"
+                },
+                "fra": {
+                    "official": "R\u00e9publique de Vanuatu",
+                    "common": "Vanuatu"
+                }
+            }
+        },
+        "tld": [
+            ".vu"
+        ],
+        "cca2": "VU",
+        "ccn3": "548",
+        "cca3": "VUT",
+        "cioc": "VAN",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "VUV": {
+                "name": "Vanuatu vatu",
+                "symbol": "Vt"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "78"
+            ]
+        },
+        "capital": [
+            "Port Vila"
+        ],
+        "altSpellings": [
+            "VU",
+            "Republic of Vanuatu",
+            "Ripablik blong Vanuatu",
+            "R\u00e9publique de Vanuatu"
+        ],
+        "region": "Oceania",
+        "subregion": "Melanesia",
+        "languages": {
+            "bis": "Bislama",
+            "eng": "English",
+            "fra": "French"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0641\u0627\u0646\u0648\u0627\u062a\u0648",
+                "common": "\u0641\u0627\u0646\u0648\u0627\u062a\u0648"
+            },
+            "ces": {
+                "official": "Republika Vanuatu",
+                "common": "Vanuatu"
+            },
+            "cym": {
+                "official": "Republic of Vanuatu",
+                "common": "Vanuatu"
+            },
+            "deu": {
+                "official": "Vanuatu",
+                "common": "Vanuatu"
+            },
+            "est": {
+                "official": "Vanuatu Vabariik",
+                "common": "Vanuatu"
+            },
+            "fin": {
+                "official": "Vanuatun tasavalta",
+                "common": "Vanuatu"
+            },
+            "fra": {
+                "official": "R\u00e9publique de Vanuatu",
+                "common": "Vanuatu"
+            },
+            "hrv": {
+                "official": "Republika Vanuatu",
+                "common": "Vanuatu"
+            },
+            "hun": {
+                "official": "Vanuatui K\u00f6zt\u00e1rsas\u00e1g",
+                "common": "Vanuatu"
+            },
+            "ita": {
+                "official": "Repubblica di Vanuatu",
+                "common": "Vanuatu"
+            },
+            "jpn": {
+                "official": "\u30d0\u30cc\u30a2\u30c4\u5171\u548c\u56fd",
+                "common": "\u30d0\u30cc\u30a2\u30c4"
+            },
+            "kor": {
+                "official": "\ubc14\ub204\uc544\ud22c \uacf5\ud654\uad6d",
+                "common": "\ubc14\ub204\uc544\ud22c"
+            },
+            "nld": {
+                "official": "Republiek Vanuatu",
+                "common": "Vanuatu"
+            },
+            "per": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0648\u0627\u0646\u0648\u0627\u062a\u0648",
+                "common": "\u0648\u0627\u0646\u0648\u0627\u062a\u0648"
+            },
+            "pol": {
+                "official": "Republika Vanuatu",
+                "common": "Vanuatu"
+            },
+            "por": {
+                "official": "Rep\u00fablica de Vanuatu",
+                "common": "Vanuatu"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0412\u0430\u043d\u0443\u0430\u0442\u0443",
+                "common": "\u0412\u0430\u043d\u0443\u0430\u0442\u0443"
+            },
+            "slk": {
+                "official": "Vanuatsk\u00e1 republika",
+                "common": "Vanuatu"
+            },
+            "spa": {
+                "official": "Rep\u00fablica de Vanuatu",
+                "common": "Vanuatu"
+            },
+            "swe": {
+                "official": "Republiken Vanuatu",
+                "common": "Vanuatu"
+            },
+            "urd": {
+                "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0648\u0627\u0646\u0648\u0627\u062a\u0648",
+                "common": "\u0648\u0627\u0646\u0648\u0627\u062a\u0648"
+            },
+            "zho": {
+                "official": "\u74e6\u52aa\u963f\u56fe\u5171\u548c\u56fd",
+                "common": "\u74e6\u52aa\u963f\u56fe"
+            }
+        },
+        "latlng": [
+            -16.0,
+            167.0
+        ],
+        "landlocked": false,
+        "area": 12189.0,
+        "demonyms": {
+            "eng": {
+                "f": "Ni-Vanuatu",
+                "m": "Ni-Vanuatu"
+            },
+            "fra": {
+                "f": "Vanuatuane",
+                "m": "Vanuatuan"
+            }
+        },
+        "flag": "\ud83c\uddfb\ud83c\uddfa",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/hwAjehcT7VfvP5zJ8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/2177246"
+        },
+        "population": 307150,
+        "gini": {
+            "2010": 37.6
+        },
+        "fifa": "VAN",
+        "car": {
+            "signs": [
+                "VU"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+11:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/vu.png",
+            "svg": "https://flagcdn.com/vu.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/vu.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/vu.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -17.73,
+                168.32
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Pitcairn Islands",
+            "official": "Pitcairn Group of Islands",
+            "nativeName": {
+                "eng": {
+                    "official": "Pitcairn Group of Islands",
+                    "common": "Pitcairn Islands"
+                }
+            }
+        },
+        "tld": [
+            ".pn"
+        ],
+        "cca2": "PN",
+        "ccn3": "612",
+        "cca3": "PCN",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "NZD": {
+                "name": "New Zealand dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "4"
+            ]
+        },
+        "capital": [
+            "Adamstown"
+        ],
+        "altSpellings": [
+            "PN",
+            "Pitcairn",
+            "Pitcairn Henderson Ducie and Oeno Islands"
+        ],
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": {
+            "eng": "English"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0632\u0631 \u0628\u064a\u062a\u0643\u064a\u0631\u0646",
+                "common": "\u062c\u0632\u0631 \u0628\u064a\u062a\u0643\u064a\u0631\u0646"
+            },
+            "ces": {
+                "official": "Pitcairnovy ostrovy",
+                "common": "Pitcairnovy ostrovy"
+            },
+            "cym": {
+                "official": "Pitcairn Group of Islands",
+                "common": "Pitcairn Islands"
+            },
+            "deu": {
+                "official": "Pitcairninseln",
+                "common": "Pitcairninseln"
+            },
+            "est": {
+                "official": "Pitcairni, Hendersoni, Ducie ja Oeno saar",
+                "common": "Pitcairn"
+            },
+            "fin": {
+                "official": "Pitcairn",
+                "common": "Pitcairn"
+            },
+            "fra": {
+                "official": "Groupe d'\u00eeles Pitcairn",
+                "common": "\u00celes Pitcairn"
+            },
+            "hrv": {
+                "official": "Pitcairn skupine otoka",
+                "common": "Pitcairnovo oto\u010dje"
+            },
+            "hun": {
+                "official": "Pitcairn-szigetek",
+                "common": "Pitcairn-szigetek"
+            },
+            "ita": {
+                "official": "Pitcairn gruppo di isole",
+                "common": "Isole Pitcairn"
+            },
+            "jpn": {
+                "official": "\u5cf6\u306e\u30d4\u30c8\u30b1\u30a2\u30f3\u30b0\u30eb\u30fc\u30d7",
+                "common": "\u30d4\u30c8\u30b1\u30a2\u30f3"
+            },
+            "kor": {
+                "official": "\ud54f\ucf00\uc5b8 \uc81c\ub3c4",
+                "common": "\ud54f\ucf00\uc5b8 \uc81c\ub3c4"
+            },
+            "nld": {
+                "official": "Pitcairn groep eilanden",
+                "common": "Pitcairneilanden"
+            },
+            "per": {
+                "official": "\u062c\u0632\u0627\u06cc\u0631 \u067e\u06cc\u062a\u200c\u06a9\u0631\u0646",
+                "common": "\u062c\u0632\u0627\u06cc\u0631 \u067e\u06cc\u062a\u200c\u06a9\u0631\u0646"
+            },
+            "pol": {
+                "official": "Wyspy Pitcairn, Henderson, Ducie i Oeno",
+                "common": "Pitcairn"
+            },
+            "por": {
+                "official": "Pitcairn grupo de ilhas",
+                "common": "Ilhas Pitcairn"
+            },
+            "rus": {
+                "official": "\u041f\u0438\u0442\u043a\u044d\u0440\u043d \u0433\u0440\u0443\u043f\u043f\u0430 \u043e\u0441\u0442\u0440\u043e\u0432\u043e\u0432",
+                "common": "\u041e\u0441\u0442\u0440\u043e\u0432\u0430 \u041f\u0438\u0442\u043a\u044d\u0440\u043d"
+            },
+            "slk": {
+                "official": "Pitcairnove ostrovy",
+                "common": "Pitcairnove ostrovy"
+            },
+            "spa": {
+                "official": "Grupo de Islas Pitcairn",
+                "common": "Islas Pitcairn"
+            },
+            "swe": {
+                "official": "Pitcairn\u00f6arna",
+                "common": "Pitcairn\u00f6arna"
+            },
+            "urd": {
+                "official": "\u067e\u0679\u06a9\u06cc\u0631\u0646 \u062c\u0632\u0627\u0626\u0631",
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u067e\u0679\u06a9\u06cc\u0631\u0646"
+            },
+            "zho": {
+                "official": "\u76ae\u7279\u51ef\u6069\u7fa4\u5c9b",
+                "common": "\u76ae\u7279\u51ef\u6069\u7fa4\u5c9b"
+            }
+        },
+        "latlng": [
+            -25.06666666,
+            -130.1
+        ],
+        "landlocked": false,
+        "area": 47.0,
+        "demonyms": {
+            "eng": {
+                "f": "Pitcairn Islander",
+                "m": "Pitcairn Islander"
+            },
+            "fra": {
+                "f": "Pitcairnaise",
+                "m": "Pitcairnais"
+            }
+        },
+        "flag": "\ud83c\uddf5\ud83c\uddf3",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/XGJMnMAigXjXcxSa7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/2185375"
+        },
+        "population": 56,
+        "car": {
+            "signs": [
+                "GB"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC-08:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/pn.png",
+            "svg": "https://flagcdn.com/pn.svg"
+        },
+        "coatOfArms": {},
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -25.07,
+                -130.08
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "New Zealand",
+            "official": "New Zealand",
+            "nativeName": {
+                "eng": {
+                    "official": "New Zealand",
+                    "common": "New Zealand"
+                },
+                "mri": {
+                    "official": "Aotearoa",
+                    "common": "Aotearoa"
+                },
+                "nzs": {
+                    "official": "New Zealand",
+                    "common": "New Zealand"
+                }
+            }
+        },
+        "tld": [
+            ".nz"
+        ],
+        "cca2": "NZ",
+        "ccn3": "554",
+        "cca3": "NZL",
+        "cioc": "NZL",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "NZD": {
+                "name": "New Zealand dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "4"
+            ]
+        },
+        "capital": [
+            "Wellington"
+        ],
+        "altSpellings": [
+            "NZ",
+            "Aotearoa"
+        ],
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "languages": {
+            "eng": "English",
+            "mri": "M\u0101ori",
+            "nzs": "New Zealand Sign Language"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u0646\u064a\u0648\u0632\u064a\u0644\u0646\u062f\u0627",
+                "common": "\u0646\u064a\u0648\u0632\u064a\u0644\u0646\u062f\u0627"
+            },
+            "ces": {
+                "official": "Nov\u00fd Z\u00e9land",
+                "common": "Nov\u00fd Z\u00e9land"
+            },
+            "cym": {
+                "official": "New Zealand",
+                "common": "New Zealand"
+            },
+            "deu": {
+                "official": "Neuseeland",
+                "common": "Neuseeland"
+            },
+            "est": {
+                "official": "Uus-Meremaa",
+                "common": "Uus-Meremaa"
+            },
+            "fin": {
+                "official": "Uusi-Seelanti",
+                "common": "Uusi-Seelanti"
+            },
+            "fra": {
+                "official": "Nouvelle-Z\u00e9lande",
+                "common": "Nouvelle-Z\u00e9lande"
+            },
+            "hrv": {
+                "official": "Novi Zeland",
+                "common": "Novi Zeland"
+            },
+            "hun": {
+                "official": "\u00daj-Z\u00e9land",
+                "common": "\u00daj-Z\u00e9land"
+            },
+            "ita": {
+                "official": "Nuova Zelanda",
+                "common": "Nuova Zelanda"
+            },
+            "jpn": {
+                "official": "\u30cb\u30e5\u30fc\u30b8\u30fc\u30e9\u30f3\u30c9",
+                "common": "\u30cb\u30e5\u30fc\u30b8\u30fc\u30e9\u30f3\u30c9"
+            },
+            "kor": {
+                "official": "\ub274\uc9c8\ub79c\ub4dc",
+                "common": "\ub274\uc9c8\ub79c\ub4dc"
+            },
+            "nld": {
+                "official": "Nieuw Zeeland",
+                "common": "Nieuw-Zeeland"
+            },
+            "per": {
+                "official": "\u0646\u06cc\u0648\u0632\u06cc\u0644\u0646\u062f",
+                "common": "\u0646\u06cc\u0648\u0632\u06cc\u0644\u0646\u062f"
+            },
+            "pol": {
+                "official": "Nowa Zelandia",
+                "common": "Nowa Zelandia"
+            },
+            "por": {
+                "official": "nova Zel\u00e2ndia",
+                "common": "Nova Zel\u00e2ndia"
+            },
+            "rus": {
+                "official": "\u041d\u043e\u0432\u0430\u044f \u0417\u0435\u043b\u0430\u043d\u0434\u0438\u044f",
+                "common": "\u041d\u043e\u0432\u0430\u044f \u0417\u0435\u043b\u0430\u043d\u0434\u0438\u044f"
+            },
+            "slk": {
+                "official": "Nov\u00fd Z\u00e9land",
+                "common": "Nov\u00fd Z\u00e9land"
+            },
+            "spa": {
+                "official": "nueva Zelanda",
+                "common": "Nueva Zelanda"
+            },
+            "swe": {
+                "official": "Nya Zeeland",
+                "common": "Nya Zeeland"
+            },
+            "urd": {
+                "official": "\u0646\u06cc\u0648\u0632\u06cc \u0644\u06cc\u0646\u0688",
+                "common": "\u0646\u06cc\u0648\u0632\u06cc \u0644\u06cc\u0646\u0688"
+            },
+            "zho": {
+                "official": "\u65b0\u897f\u5170",
+                "common": "\u65b0\u897f\u5170"
+            }
+        },
+        "latlng": [
+            -41.0,
+            174.0
+        ],
+        "landlocked": false,
+        "area": 270467.0,
+        "demonyms": {
+            "eng": {
+                "f": "New Zealander",
+                "m": "New Zealander"
+            },
+            "fra": {
+                "f": "Neo-Z\u00e9landaise",
+                "m": "Neo-Z\u00e9landais"
+            }
+        },
+        "flag": "\ud83c\uddf3\ud83c\uddff",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/xXiDQo65dwdpw9iu8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/556706#map=5/-46.710/172.046"
+        },
+        "population": 5084300,
+        "fifa": "NZL",
+        "car": {
+            "signs": [
+                "NZ"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC-11:00",
+            "UTC-10:00",
+            "UTC+12:00",
+            "UTC+12:45",
+            "UTC+13:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/nz.png",
+            "svg": "https://flagcdn.com/nz.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/nz.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/nz.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -41.3,
+                174.78
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Tokelau",
+            "official": "Tokelau",
+            "nativeName": {
+                "eng": {
+                    "official": "Tokelau",
+                    "common": "Tokelau"
+                },
+                "smo": {
+                    "official": "Tokelau",
+                    "common": "Tokelau"
+                },
+                "tkl": {
+                    "official": "Tokelau",
+                    "common": "Tokelau"
+                }
+            }
+        },
+        "tld": [
+            ".tk"
+        ],
+        "cca2": "TK",
+        "ccn3": "772",
+        "cca3": "TKL",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "NZD": {
+                "name": "New Zealand dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "90"
+            ]
+        },
+        "capital": [
+            "Fakaofo"
+        ],
+        "altSpellings": [
+            "TK"
+        ],
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": {
+            "eng": "English",
+            "smo": "Samoan",
+            "tkl": "Tokelauan"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062a\u0648\u0643\u064a\u0644\u0627\u0648",
+                "common": "\u062a\u0648\u0643\u064a\u0644\u0627\u0648"
+            },
+            "ces": {
+                "official": "Tokelau",
+                "common": "Tokelau"
+            },
+            "cym": {
+                "official": "Tokelau",
+                "common": "Tokelau"
+            },
+            "deu": {
+                "official": "Tokelau",
+                "common": "Tokelau"
+            },
+            "est": {
+                "official": "Tokelau",
+                "common": "Tokelau"
+            },
+            "fin": {
+                "official": "Tokelau",
+                "common": "Tokelau"
+            },
+            "fra": {
+                "official": "\u00celes Tokelau",
+                "common": "Tokelau"
+            },
+            "hrv": {
+                "official": "Tokelau",
+                "common": "Tokelau"
+            },
+            "hun": {
+                "official": "Tokelau-szigetek",
+                "common": "Tokelau-szigetek"
+            },
+            "ita": {
+                "official": "Tokelau",
+                "common": "Isole Tokelau"
+            },
+            "jpn": {
+                "official": "\u30c8\u30b1\u30e9\u30a6\u8af8\u5cf6",
+                "common": "\u30c8\u30b1\u30e9\u30a6"
+            },
+            "kor": {
+                "official": "\ud1a0\ucf08\ub77c\uc6b0",
+                "common": "\ud1a0\ucf08\ub77c\uc6b0"
+            },
+            "nld": {
+                "official": "Tokelau",
+                "common": "Tokelau"
+            },
+            "per": {
+                "official": "\u062a\u0648\u06a9\u0644\u0627\u0626\u0648",
+                "common": "\u062a\u0648\u06a9\u0644\u0627\u0626\u0648"
+            },
+            "pol": {
+                "official": "Tokelau",
+                "common": "Tokelau"
+            },
+            "por": {
+                "official": "Tokelau",
+                "common": "Tokelau"
+            },
+            "rus": {
+                "official": "\u0422\u043e\u043a\u0435\u043b\u0430\u0443",
+                "common": "\u0422\u043e\u043a\u0435\u043b\u0430\u0443"
+            },
+            "slk": {
+                "official": "Tokelausk\u00e9 ostrovy",
+                "common": "Tokelau"
+            },
+            "spa": {
+                "official": "Tokelau",
+                "common": "Islas Tokelau"
+            },
+            "swe": {
+                "official": "Tokelau\u00f6arna",
+                "common": "Tokelau\u00f6arna"
+            },
+            "urd": {
+                "official": "\u0679\u0648\u06a9\u06cc\u0644\u0627\u0624",
+                "common": "\u0679\u0648\u06a9\u06cc\u0644\u0627\u0624"
+            },
+            "zho": {
+                "official": "\u6258\u514b\u52b3",
+                "common": "\u6258\u514b\u52b3"
+            }
+        },
+        "latlng": [
+            -9.0,
+            -172.0
+        ],
+        "landlocked": false,
+        "area": 12.0,
+        "demonyms": {
+            "eng": {
+                "f": "Tokelauan",
+                "m": "Tokelauan"
+            }
+        },
+        "flag": "\ud83c\uddf9\ud83c\uddf0",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/Ap5qN8qien6pT9UN6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/2186600"
+        },
+        "population": 1411,
+        "car": {
+            "signs": [
+                ""
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+13:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/tk.png",
+            "svg": "https://flagcdn.com/tk.svg"
+        },
+        "coatOfArms": {},
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -9.38,
+                -171.22
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Norfolk Island",
+            "official": "Territory of Norfolk Island",
+            "nativeName": {
+                "eng": {
+                    "official": "Territory of Norfolk Island",
+                    "common": "Norfolk Island"
+                },
+                "pih": {
+                    "official": "Teratri of Norf'k Ailen",
+                    "common": "Norf'k Ailen"
+                }
+            }
+        },
+        "tld": [
+            ".nf"
+        ],
+        "cca2": "NF",
+        "ccn3": "574",
+        "cca3": "NFK",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "AUD": {
+                "name": "Australian dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "72"
+            ]
+        },
+        "capital": [
+            "Kingston"
+        ],
+        "altSpellings": [
+            "NF",
+            "Territory of Norfolk Island",
+            "Teratri of Norf'k Ailen"
+        ],
+        "region": "Oceania",
+        "subregion": "Australia and New Zealand",
+        "languages": {
+            "eng": "English",
+            "pih": "Norfuk"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u0625\u0642\u0644\u064a\u0645 \u062c\u0632\u064a\u0631\u0629 \u0646\u0648\u0631\u0641\u0648\u0644\u0643",
+                "common": "\u062c\u0632\u064a\u0631\u0629 \u0646\u0648\u0631\u0641\u0648\u0644\u0643"
+            },
+            "ces": {
+                "official": "Teritorium ostrova Norfolk",
+                "common": "Norfolk"
+            },
+            "cym": {
+                "official": "Territory of Norfolk Island",
+                "common": "Norfolk Island"
+            },
+            "deu": {
+                "official": "Gebiet der Norfolkinsel",
+                "common": "Norfolkinsel"
+            },
+            "est": {
+                "official": "Norfolki saare ala",
+                "common": "Norfolk"
+            },
+            "fin": {
+                "official": "Norfolkinsaaren territorio",
+                "common": "Norfolkinsaari"
+            },
+            "fra": {
+                "official": "Territoire de l'\u00eele Norfolk",
+                "common": "\u00cele Norfolk"
+            },
+            "hrv": {
+                "official": "Teritorij Norfolk Island",
+                "common": "Otok Norfolk"
+            },
+            "hun": {
+                "official": "Norfolk-sziget",
+                "common": "Norfolk-sziget"
+            },
+            "ita": {
+                "official": "Territorio di Norfolk Island",
+                "common": "Isola Norfolk"
+            },
+            "jpn": {
+                "official": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6\u306e\u9818\u571f",
+                "common": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6"
+            },
+            "kor": {
+                "official": "\ub178\ud37d \uc12c",
+                "common": "\ub178\ud37d \uc12c"
+            },
+            "nld": {
+                "official": "Grondgebied van Norfolk Island",
+                "common": "Norfolkeiland"
+            },
+            "per": {
+                "official": "\u0642\u0644\u0645\u0631\u0648 \u062c\u0632\u0627\u06cc\u0631 \u0646\u0648\u0631\u0641\u06a9",
+                "common": "\u062c\u0632\u06cc\u0631\u0647 \u0646\u0648\u0631\u0641\u06a9"
+            },
+            "pol": {
+                "official": "Terytorium Wyspy Norfolk",
+                "common": "Wyspa Norfolk"
+            },
+            "por": {
+                "official": "Territ\u00f3rio da Ilha Norfolk",
+                "common": "Ilha Norfolk"
+            },
+            "rus": {
+                "official": "\u0422\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f \u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u041d\u043e\u0440\u0444\u043e\u043b\u043a",
+                "common": "\u041d\u043e\u0440\u0444\u043e\u043b\u043a"
+            },
+            "slk": {
+                "official": "Terit\u00f3rium ostrova Norfolk",
+                "common": "Norfolk"
+            },
+            "spa": {
+                "official": "Territorio de la Isla Norfolk",
+                "common": "Isla de Norfolk"
+            },
+            "swe": {
+                "official": "Norfolk\u00f6n",
+                "common": "Norfolk\u00f6n"
+            },
+            "urd": {
+                "official": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9 \u062e\u0637\u06c1",
+                "common": "\u062c\u0632\u06cc\u0631\u06c1 \u0646\u0648\u0631\u0641\u06a9"
+            },
+            "zho": {
+                "official": "\u8bfa\u798f\u514b\u5c9b",
+                "common": "\u8bfa\u798f\u514b\u5c9b"
+            }
+        },
+        "latlng": [
+            -29.03333333,
+            167.95
+        ],
+        "landlocked": false,
+        "area": 36.0,
+        "demonyms": {
+            "eng": {
+                "f": "Norfolk Islander",
+                "m": "Norfolk Islander"
+            },
+            "fra": {
+                "f": "Norfolkaise",
+                "m": "Norfolkais"
+            }
+        },
+        "flag": "\ud83c\uddf3\ud83c\uddeb",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/pbvtm6XYd1iZbjky5",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/2574988"
+        },
+        "population": 2302,
+        "car": {
+            "signs": [
+                "AUS"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+11:30"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/nf.png",
+            "svg": "https://flagcdn.com/nf.svg"
+        },
+        "coatOfArms": {},
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -29.05,
+                167.97
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Cook Islands",
+            "official": "Cook Islands",
+            "nativeName": {
+                "eng": {
+                    "official": "Cook Islands",
+                    "common": "Cook Islands"
+                },
+                "rar": {
+                    "official": "K\u016bki '\u0100irani",
+                    "common": "K\u016bki '\u0100irani"
+                }
+            }
+        },
+        "tld": [
+            ".ck"
+        ],
+        "cca2": "CK",
+        "ccn3": "184",
+        "cca3": "COK",
+        "cioc": "COK",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "CKD": {
+                "name": "Cook Islands dollar",
+                "symbol": "$"
+            },
+            "NZD": {
+                "name": "New Zealand dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "82"
+            ]
+        },
+        "capital": [
+            "Avarua"
+        ],
+        "altSpellings": [
+            "CK",
+            "K\u016bki '\u0100irani"
+        ],
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "languages": {
+            "eng": "English",
+            "rar": "Cook Islands M\u0101ori"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0632\u0631 \u0643\u0648\u0643",
+                "common": "\u062c\u0632\u0631 \u0643\u0648\u0643"
+            },
+            "ces": {
+                "official": "Cookovy ostrovy",
+                "common": "Cookovy ostrovy"
+            },
+            "cym": {
+                "official": "Ynysoedd Cook",
+                "common": "Ynysoedd Cook"
+            },
+            "deu": {
+                "official": "Cookinseln",
+                "common": "Cookinseln"
+            },
+            "est": {
+                "official": "Cooki saared",
+                "common": "Cooki saared"
+            },
+            "fin": {
+                "official": "Cookinsaaret",
+                "common": "Cookinsaaret"
+            },
+            "fra": {
+                "official": "\u00celes Cook",
+                "common": "\u00celes Cook"
+            },
+            "hrv": {
+                "official": "Cook Islands",
+                "common": "Cookovo Oto\u010dje"
+            },
+            "hun": {
+                "official": "Cook-szigetek",
+                "common": "Cook-szigetek"
+            },
+            "ita": {
+                "official": "Isole Cook",
+                "common": "Isole Cook"
+            },
+            "jpn": {
+                "official": "\u30af\u30c3\u30af\u8af8\u5cf6",
+                "common": "\u30af\u30c3\u30af\u8af8\u5cf6"
+            },
+            "kor": {
+                "official": "\ucfe1 \uc81c\ub3c4",
+                "common": "\ucfe1 \uc81c\ub3c4"
+            },
+            "nld": {
+                "official": "Cook eilanden",
+                "common": "Cookeilanden"
+            },
+            "per": {
+                "official": "\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u06a9",
+                "common": "\u062c\u0632\u0627\u06cc\u0631 \u06a9\u0648\u06a9"
+            },
+            "pol": {
+                "official": "Wyspy Cooka",
+                "common": "Wyspy Cooka"
+            },
+            "por": {
+                "official": "Ilhas Cook",
+                "common": "Ilhas Cook"
+            },
+            "rus": {
+                "official": "\u043e\u0441\u0442\u0440\u043e\u0432\u0430 \u041a\u0443\u043a\u0430",
+                "common": "\u041e\u0441\u0442\u0440\u043e\u0432\u0430 \u041a\u0443\u043a\u0430"
+            },
+            "slk": {
+                "official": "Cookove ostrovy",
+                "common": "Cookove ostrovy"
+            },
+            "spa": {
+                "official": "Islas Cook",
+                "common": "Islas Cook"
+            },
+            "swe": {
+                "official": "Cook\u00f6arna",
+                "common": "Cook\u00f6arna"
+            },
+            "urd": {
+                "official": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u06a9",
+                "common": "\u062c\u0632\u0627\u0626\u0631 \u06a9\u06a9"
+            },
+            "zho": {
+                "official": "\u5e93\u514b\u7fa4\u5c9b",
+                "common": "\u5e93\u514b\u7fa4\u5c9b"
+            }
+        },
+        "latlng": [
+            -21.23333333,
+            -159.76666666
+        ],
+        "landlocked": false,
+        "area": 236.0,
+        "demonyms": {
+            "eng": {
+                "f": "Cook Islander",
+                "m": "Cook Islander"
+            },
+            "fra": {
+                "f": "Cookienne",
+                "m": "Cookien"
+            }
+        },
+        "flag": "\ud83c\udde8\ud83c\uddf0",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/nrGZrvWRGB4WHgDC9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/2184233"
+        },
+        "population": 18100,
+        "fifa": "COK",
+        "car": {
+            "signs": [
+                "NZ"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC-10:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/ck.png",
+            "svg": "https://flagcdn.com/ck.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/ck.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/ck.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -21.2,
+                -159.77
+            ]
+        }
+    }
+]
